@@ -21,12 +21,16 @@ make install
 
 
 
-# How to configure node
+# How to configure node and test BP
 - Create data-dir folder for you node, for example /opt/jungleTestnet  
 - Download files config.ini and genesis.json in this folder  
 - Edit path to data-dr/genesis.json file in coonfig.ini
-- Choose a name (any animal) and create own EOS key
-- Add you producer name and your keys in config
+- Choose your producer name (any jungle animal ;) and create own EOS key pair.
+- Add you producer name and your keys in your config
+- Connect your node to network
+- Inform in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> information about your node: Server geographic location, Organisation/Website, node ip/domain, http port, p2p port, producer name, your public key
+- Afetr providing information and node syncronisation, let us know in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> to activate your account as BP.
+
 
 
 # BP Information
