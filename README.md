@@ -32,4 +32,7 @@ make install
 # BP Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
-| Lion | jungle.cryptolions.io | 8889 | 9877 | Ukraine, Kyiv | CryptoLions.io |
+| eosio | jungle.cryptolions.io | 8900	| 9899	 | Ukraine, Kyiv | CryptoLions.io |
+| Lion | jungle.cryptolions.io | 8898	| 9886 | Ukraine, Kyiv | CryptoLions.io |
+| Tiger | 193.93.219.219 | 8889	| 9877 | Ukraine, Lviv | CryptoLions.io |
+| Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
