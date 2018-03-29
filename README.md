@@ -25,7 +25,7 @@ make install
 - Create data-dir folder for you node, for example /opt/jungleTestnet  
 - Download files config.ini and genesis.json in this folder  
 - Edit path to data-dr/genesis.json file in coonfig.ini
-- Choose your producer name (any jungle animal ;) and create own EOS key pair.
+- Choose your producer name (any jungle animal ;) and create own EOS key pair (you can create key pair <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
 - Add you producer name and your keys in your config
 - Connect your node to network
 - Please inform in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> your node info: Server geographic location, Organisation/Website, node ip/domain, http port, p2p port, producer name, your public key
