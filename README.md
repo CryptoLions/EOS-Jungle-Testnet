@@ -28,8 +28,8 @@ make install
 - Choose your producer name (any jungle animal ;) and create own EOS key pair.
 - Add you producer name and your keys in your config
 - Connect your node to network
-- Inform in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> information about your node: Server geographic location, Organisation/Website, node ip/domain, http port, p2p port, producer name, your public key
-- Afetr providing information and node syncronisation, let us know in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> to activate your account as BP.
+- Please inform in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> your node info: Server geographic location, Organisation/Website, node ip/domain, http port, p2p port, producer name, your public key
+- After providing information and node synchronization, let us know in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> to activate your account as BP.
 
 
 
