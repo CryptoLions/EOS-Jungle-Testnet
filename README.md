@@ -44,3 +44,4 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 | Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
+| Panther | bp4-d3.eos42.io | 8888 | 9876 |  London  | EOS42.io |
