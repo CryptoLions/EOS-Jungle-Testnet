@@ -49,5 +49,5 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 | Panther | bp4-d3.eos42.io | 8888 | 9876 |  London  | EOS42.io |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
 | Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
-| Sloth | 54.200.153.106 | 8888 | 9876 |  Singapore  | EOS Botetourt |
+| Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
 
