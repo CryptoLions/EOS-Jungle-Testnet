@@ -15,7 +15,7 @@ git clone https://github.com/eosio/eos --recursive
 cd eos  
 git checkout DAWN-2018-03-29-ALPHA  
 git submodule update --recursive  
-./eosio_build.sh
+./eosio_build.sh  
 cd build  
 make install
 
