@@ -43,3 +43,4 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 | Tiger | 193.93.219.219 | 8889	| 9877 | Ukraine, Lviv | CryptoLions.io |
 | Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Whale | eoscalgary.com | 8889 | 9877 | Canada | EOS.Cafe |
+| Kangaroo | eoscalgary.com | 8888 | 9876 |  Australia | EOSphere.io |
