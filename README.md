@@ -37,7 +37,7 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 
 
 
-# BP Information
+# BP Nodes Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
 | eosio | jungle.cryptolions.io | 8900	| 9899	 | Ukraine, Kyiv | CryptoLions.io |
@@ -54,6 +54,7 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
 | Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
 | Galapago | 5.189.151.46 | 6010 | 6020 |  Germany | bitcoineos.fun |
+| Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
