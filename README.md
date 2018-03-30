@@ -52,4 +52,5 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
 | Fox | eosrio.entropia.in | 8889 | 9876 |  Brazil, Rio de Janeiro  | EOS Rio |
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
-
+| Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
+| Galapago | 5.189.151.46 | 6010 | 6020 |  Germany | bitcoineos.fun |
