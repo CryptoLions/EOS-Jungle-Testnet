@@ -40,24 +40,23 @@ Remember to open/forward ports on your firewall
 # BP Nodes Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
-| eosio | jungle.cryptolions.io | 8900	| 9899	 | Ukraine, Kyiv | CryptoLions.io |
+| volcano | jungle.cryptolions.io | 8900	| 9899	 | Ukraine, Kyiv | CryptoLions.io |
 | Lion | jungle.cryptolions.io | 8898	| 9886 | Ukraine, Kyiv | CryptoLions.io |
 | Tiger | 193.93.219.219 | 8889	| 9877 | Ukraine, Lviv | CryptoLions.io |
-
+| Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
+| Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
+| Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
+| Panther | bp4-d3.eos42.io | 8888 | 9876 |  London  | EOS42.io |
+| Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
 
 # Processing update:
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
-| Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
-| Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
-| Panther | bp4-d3.eos42.io | 8888 | 9876 |  London  | EOS42.io |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
-| Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
 | Fox | eosrio.entropia.in | 8889 | 9876 |  Brazil, Rio de Janeiro  | EOS Rio |
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
-| Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
 | Galapago | 5.189.151.46 | 6010 | 6020 |  Germany | bitcoineos.fun |
 | Langurs | eosgreen.uk.to | 8888 | 9876 |  UK | EOSgreen.io |
 | Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
