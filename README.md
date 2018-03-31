@@ -52,14 +52,16 @@ Remember to open/forward ports on your firewall
 | Langurs | eosgreen.uk.to | 8888 | 9876 |  UK | EOSgreen.io |
 | Galapago | 5.189.151.46 | 6010 | 6020 |  Germany | bitcoineos.fun |
 | Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
+| Fox | eosrio.entropia.in | 8889 | 9876 |  Brazil, Rio de Janeiro  | EOS Rio |
+
 
 # Processing update:
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
-| Fox | eosrio.entropia.in | 8889 | 9876 |  Brazil, Rio de Janeiro  | EOS Rio |
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
 | Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
+| Elephant | 18.188.52.250 | 8877  | 9898 | USA | Blockpro.one |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
