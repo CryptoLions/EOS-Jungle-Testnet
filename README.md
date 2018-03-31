@@ -48,12 +48,12 @@ Remember to open/forward ports on your firewall
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
 | Panther | bp4-d3.eos42.io | 8888 | 9876 |  London  | EOS42.io |
 | Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
+| Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
 
 # Processing update:
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
 | Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
-| Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
 | Fox | eosrio.entropia.in | 8889 | 9876 |  Brazil, Rio de Janeiro  | EOS Rio |
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
