@@ -44,7 +44,10 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 | Lion | jungle.cryptolions.io | 8898	| 9886 | Ukraine, Kyiv | CryptoLions.io |
 
 
+
 # Processing update:
+| BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
+|---------|---------|-------------|------------|----------|--------------|
 | Tiger | 193.93.219.219 | 8889	| 9877 | Ukraine, Lviv | CryptoLions.io |
 | Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
