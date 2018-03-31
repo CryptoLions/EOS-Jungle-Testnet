@@ -25,7 +25,7 @@ make install
 
 
 # How to configure node and test BP
-- Create data-dir folder for you node, for example /opt/jungleTestnet  
+- Create data-dir folder for you node, for example /opt/Jungle3Testnet  
 - Download files config.ini and genesis.json in this folder  
 - Edit path to data-dr/genesis.json file in coonfig.ini
 - Choose your producer name (any jungle animal ;) and create own EOS key pair (you can create key pair using cleos command ./cleos create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
