@@ -54,6 +54,7 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
 | Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
 | Galapago | 5.189.151.46 | 6010 | 6020 |  Germany | bitcoineos.fun |
+| Langurs | eosgreen.uk.to | 8888 | 9876 |  UK | EOSgreen.io |
 | Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
 
 # Nodes
