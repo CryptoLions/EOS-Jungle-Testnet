@@ -13,7 +13,7 @@ To participate as block producer please contact us in <a target="_blank" href="h
   
 git clone https://github.com/eosio/eos --recursive  
 cd eos  
-git checkout DAWN-2018-03-29-ALPHA  
+git checkout DAWN-2018-03-30-ALPHA  
 git submodule update --recursive  
 ./eosio_build.sh  
 cd build  
@@ -42,6 +42,9 @@ If you hvae compiled scripts already, you can download and use prepared data-fol
 |---------|---------|-------------|------------|----------|--------------|
 | eosio | jungle.cryptolions.io | 8900	| 9899	 | Ukraine, Kyiv | CryptoLions.io |
 | Lion | jungle.cryptolions.io | 8898	| 9886 | Ukraine, Kyiv | CryptoLions.io |
+
+
+# Processing update:
 | Tiger | 193.93.219.219 | 8889	| 9877 | Ukraine, Lviv | CryptoLions.io |
 | Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
