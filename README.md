@@ -42,13 +42,12 @@ Remember to open/forward ports on your firewall
 |---------|---------|-------------|------------|----------|--------------|
 | eosio | jungle.cryptolions.io | 8900	| 9899	 | Ukraine, Kyiv | CryptoLions.io |
 | Lion | jungle.cryptolions.io | 8898	| 9886 | Ukraine, Kyiv | CryptoLions.io |
-
+| Tiger | 193.93.219.219 | 8889	| 9877 | Ukraine, Lviv | CryptoLions.io |
 
 
 # Processing update:
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
-| Tiger | 193.93.219.219 | 8889	| 9877 | Ukraine, Lviv | CryptoLions.io |
 | Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
