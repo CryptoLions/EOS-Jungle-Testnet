@@ -1,6 +1,6 @@
 # Welcome to the Jungle3 Testnet
 EOS public test network: Jungle3   
-Based on: DAWN-2018-03-29-ALPHA  
+Based on: DAWN-2018-03-30-ALPHA  
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
 
@@ -33,7 +33,7 @@ make install
   
 Remember to open/forward ports on your firewall
   
-If you hvae compiled scripts already, you can download and use prepared data-folder <a href="http://imgs.cryptolions.io/Jungle3TestnetNode.tar.gz"> Jungle3TestnetNode.tar.gz </a>. Place files like in archive and edit config with your parametrs - ports, producer name and keys
+<!---If you hvae compiled scripts already, you can download and use prepared data-folder <a href="http://imgs.cryptolions.io/Jungle3TestnetNode.tar.gz"> Jungle3TestnetNode.tar.gz </a>. Place files like in archive and edit config with your parametrs - ports, producer name and keys --->
 
 
 
