@@ -23,18 +23,28 @@ cd build
 make install
 
 
-
 # How to configure node and test BP
-- Create data-dir folder for you node, for example /opt/Jungle3Testnet  
-- Download files config.ini and genesis.json in this folder  
-- Edit path to data-dr/genesis.json file in coonfig.ini
-- Choose your producer name (any jungle animal ;) and create own EOS key pair (you can create key pair using cleos command ./cleos create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
-- Add you producer name and your keys in your config
-- Connect your node to network
-- Please inform in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> your node info: Server geographic location, Organisation/Website, node ip/domain, http port, p2p port, producer name, your public key
-- After providing information and node synchronization, let us know in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> to activate your account as BP.
+- Create data-dir folder for you node:
+  mkdir /opt/Jungle3Testnet  
+- Download files config.ini, genesis.json, start.sh, stop.sh and put in this folder /opt/Jungle3Testnet
+- All paths in files are binded to this data folder
+- add execution rights  
+  chmod 777 /opt/Jungle3Testnet/start.sh  
+  chmod 777 /opt/Jungle3Testnet/stop.sh  
   
-Remember to open/forward ports on your firewall
+- Choose your producer name (any jungle animal ;) and create own EOS key pair  
+  you can create key pair using cleos command ./cleos create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
+- Edit config.ini with your producer name and created key pair
+- Open http and p2p Ports on your firewall/router
+- Connect your node, run ./start.sh
+- if your node is connected and synced -  **Send Request** in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> with next information:  
+    
+| Server Location | Organisation | node ip/domain, | Port (http) |  Port (p2p) | producer name | your public key|
+|-----------------|--------------|-----------------|-------------|-------------|---------------|----------------|
+
+- After receving your requst, node will be added to monitor, as Block producer.  
+  Account will be created and initial EOS will be sent.  
+  
   
 <!---If you hvae compiled scripts already, you can download and use prepared data-folder <a href="http://imgs.cryptolions.io/Jungle3TestnetNode.tar.gz"> Jungle3TestnetNode.tar.gz </a>. Place files like in archive and edit config with your parametrs - ports, producer name and keys --->
 
