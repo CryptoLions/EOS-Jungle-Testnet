@@ -12,9 +12,9 @@ To participate as block producer please contact us in <a target="_blank" href="h
 # Howto Install EOS node:  
   
 
-mkdir /home/eos-DAWN-2018-03-30-ALPHA
-cd /home/eos-DAWN-2018-03-30-ALPHA
-git clone https://github.com/eosio/eos --recursive  
+mkdir /home/eos-DAWN-2018-03-30-ALPHA  
+cd /home/eos-DAWN-2018-03-30-ALPHA  
+git clone https://github.com/eosio/eos --recursive    
 cd eos  
 git checkout DAWN-2018-03-30-ALPHA  
 git submodule update --recursive  
