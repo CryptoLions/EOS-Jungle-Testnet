@@ -70,12 +70,12 @@ make install
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
 | Elephant | 18.188.52.250 | 8877  | 9898 | USA | Blockpro.one |
 | Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
+| Mowgli | mowgli.jungle3.eos.roelandp.nl | 8765 | 9876 | Germany | roelandp.nl/eos |
 
-
-# Processing update:
+# Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
-| Mowgli | mowgli.jungle3.eos.roelandp.nl | 8765 | 9876 | Germany | roelandp.nl/eos |
+
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
