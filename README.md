@@ -69,6 +69,7 @@ make install
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
 | Elephant | 18.188.52.250 | 8877  | 9898 | USA | Blockpro.one |
+| Mowgli | mowgli.jungle3.eos.roelandp.nl | 8765 | 9876 | Germany | roelandp.nl/eos |
 
 # Processing update:
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
