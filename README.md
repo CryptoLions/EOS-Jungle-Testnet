@@ -63,7 +63,7 @@ make install
 | Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
 | Langurs | eosgreen.uk.to | 8888 | 9876 |  UK | EOSgreen.io |
-| Galapago | 5.189.151.46 | 6010 | 6020 |  Germany | bitcoineos.fun |
+| Galapago | 95.216.20.181 | 7010 | 7015 |  Germany | bitcoineos.fun |
 | Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
 | Fox | eosrio.entropia.in | 8889 | 9876 |  Brazil, Rio de Janeiro  | EOS Rio |
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
