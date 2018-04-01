@@ -72,6 +72,7 @@ make install
 | Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
 | Mowgli | mowgli.jungle3.eos.roelandp.nl | 8765 | 9876 | Germany | roelandp.nl/eos |
 | Mpenjati | mpenjati.eosio.africa	 | 8851 | 9821 | Africa | EOS.IO Africa |
+| Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
