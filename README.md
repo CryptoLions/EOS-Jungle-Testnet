@@ -68,12 +68,12 @@ make install
 | Fox | eosrio.entropia.in | 8889 | 9876 |  Brazil, Rio de Janeiro  | EOS Rio |
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
 | Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
+| Elephant | 18.188.52.250 | 8877  | 9898 | USA | Blockpro.one |
 
 # Processing update:
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
 | Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
-| Elephant | 18.188.52.250 | 8877  | 9898 | USA | Blockpro.one |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
