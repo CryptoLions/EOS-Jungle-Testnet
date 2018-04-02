@@ -74,7 +74,7 @@ make install
 | Mpenjati | mpenjati.eosio.africa	 | 8851 | 9821 | Africa | EOS.IO Africa |
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
-| Tokki | bpseoul.eosnodeone.io	 | 8888 | 9876 | Seoul | www.eosnodeone.io |
+| Tokki | bpseoul.eosnodeone.io	 | 8888 | 9876 | Seoul | eosnodeone.io |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
