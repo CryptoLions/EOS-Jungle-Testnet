@@ -37,7 +37,7 @@ make install
 - Edit config.ini with your producer name and created key pair
 - Open http and p2p Ports on your firewall/router
 - Connect your node, run ./start.sh
-- Check if you can acces you node usibng link http://you_server:your_http_port/v1/chain/get_info (<a href="http://jungle.cryptolions.io:8900/v1/chain/get_info" target="_blank">Example</a>)
+- Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://jungle.cryptolions.io:8900/v1/chain/get_info" target="_blank">Example</a>)
 
 - if your node is connected and synced -  **Send Request** in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> with next information:  
     
