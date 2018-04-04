@@ -77,11 +77,14 @@ make install
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
 | Tokki | bpseoul.eosnodeone.io	 | 8888 | 9876 | Seoul | eosnodeone.io |
+| Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
+| Honeybadger | 35.189.107.125	| 8888 | 9876 | Uk, London | EOS42 |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
 | Rhino | 220.241.204.237	 | 8888 | 9876 | Hong Kong | HKEOS |
+| Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | EOS Taiwan	 |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
