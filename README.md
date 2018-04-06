@@ -57,6 +57,22 @@ make install
 | Lion | jungle.cryptolions.io | 8890	| 9890 | Ukraine, Kyiv | CryptoLions.io |
 | Tiger | 193.93.219.219 | 8888	| 9876 | Ukraine, Lviv | CryptoLions.io |
 | Jaguar | jungle.eosnewyork.io | 8888 | 9876 | Central Canada | EOS New York |  
+| Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
+| Mowgli | mowgli.jungle3.eos.roelandp.nl | 8765 | 9876 | Germany | roelandp.nl/eos |
+| Dragonfly | 93.176.188.7 | 8888 | 9876 | Barcelona | EOSbcn |
+| Elephant | 18.188.52.250	| 8877  | 9876 | USA | Blockpro.one |
+| Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
+| Fox | eosrio.entropia.in | 8887 | 9875 |  Brazil, Rio de Janeiro  | EOS Rio |
+| Honeybadger | 35.189.107.125	| 8888 | 9876 | Uk, London | EOS42 |
+| Wombat | pearls.capital | 8888 | 9876 |  russia, moscow | pearls.capital |
+| Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
+| Langurs | eosgreen.uk.to | 8888 | 9876 |  UK | EOSgreen.io |
+| Tokki | bpseoul.eosnodeone.io	 | 8888 | 9876 | Seoul | eosnodeone.io |
+| Whale | whale.eoscalgary.com | 80 | 9876 | Canada | EOS.Cafe |
+| Panther | bp4-d3.eos42.io | 8888 | 9876 |  London  | EOS42.io |
+| Tortoise | 149.202.201.27 | 8888 | 9876 |  France  | EOSdac.io |
+| Galapago | 95.216.20.181 | 7010 | 7015 |  Germany | bitcoineos.fun |
+| Mpenjati | mpenjati.eosio.africa	 | 8888 | 9876 | Africa | EOS.IO Africa |
 
 
 # Nodes waiting to be connected
@@ -64,27 +80,14 @@ make install
 |---------|---------|-------------|------------|----------|--------------|
 | Rhino | 220.241.204.237	 | 8888 | 9876 | Hong Kong | HKEOS |
 | Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | EOS Taiwan	 |
-| Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
-| Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
-| Panther | bp4-d3.eos42.io | 8888 | 9876 |  London  | EOS42.io |
 | Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
-| Langurs | eosgreen.uk.to | 8888 | 9876 |  UK | EOSgreen.io |
-| Galapago | 95.216.20.181 | 7010 | 7015 |  Germany | bitcoineos.fun |
-| Whale | eoscalgary.com | 8888 | 9876 | Canada | EOS.Cafe |
-| Fox | eosrio.entropia.in | 8889 | 9876 |  Brazil, Rio de Janeiro  | EOS Rio |
-| Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
-| Wombat | pearls.capital | 8889 | 9877 |  russia, moscow | pearls.capital |
-| Elephant | 18.188.52.250 | 8877  | 9898 | USA | Blockpro.one |
 | Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
-| Mowgli | mowgli.jungle3.eos.roelandp.nl | 8765 | 9876 | Germany | roelandp.nl/eos |
-| Mpenjati | mpenjati.eosio.africa	 | 8851 | 9821 | Africa | EOS.IO Africa |
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
-| Tokki | bpseoul.eosnodeone.io	 | 8888 | 9876 | Seoul | eosnodeone.io |
 | Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
-| Honeybadger | 35.189.107.125	| 8888 | 9876 | Uk, London | EOS42 |
+
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
