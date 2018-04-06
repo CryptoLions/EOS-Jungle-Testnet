@@ -8,7 +8,7 @@
 
 
 NODEOSBINDIR="/home/eos-dawn-v3.0.0/eos/build/programs/nodeos"
-DATADIR="/opt/Jungle3Testnet"
+DATADIR="/opt/JungleTestnet"
 
 ./stop.sh
 echo "Starting Nodeos \n";
