@@ -1,5 +1,5 @@
-# Welcome to the Jungle3 Testnet
-EOS public test network: Jungle3   
+# Welcome to the EOS Jungle Testnet
+EOS public test network: Jungle   
 Based on: dawn-v3.0.0 release  
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
@@ -25,12 +25,12 @@ make install
 
 # How to configure node and test BP
 - Create data-dir folder for you node:
-  mkdir /opt/Jungle3Testnet  
-- Download files config.ini, genesis.json, start.sh, stop.sh and put in this folder /opt/Jungle3Testnet
+  mkdir /opt/JungleTestnet  
+- Download files config.ini, genesis.json, start.sh, stop.sh and put in this folder /opt/JungleTestnet
 - All paths in files are binded to this data folder
 - add execution rights  
-  chmod 777 /opt/Jungle3Testnet/start.sh  
-  chmod 777 /opt/Jungle3Testnet/stop.sh  
+  chmod 777 /opt/JungleTestnet/start.sh  
+  chmod 777 /opt/JungleTestnet/stop.sh  
   
 - Choose your producer name (any jungle animal ;) and create own EOS key pair  
   you can create key pair using cleos command ./cleos create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
@@ -48,8 +48,6 @@ make install
   Account will be created and initial EOS will be sent.  
   
   
-<!---If you hvae compiled scripts already, you can download and use prepared data-folder <a href="http://imgs.cryptolions.io/Jungle3TestnetNode.tar.gz"> Jungle3TestnetNode.tar.gz </a>. Place files like in archive and edit config with your parametrs - ports, producer name and keys --->
-
 
 
 # BP Nodes Information
