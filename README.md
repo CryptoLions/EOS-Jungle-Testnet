@@ -73,6 +73,7 @@ make install
 | Tortoise | 149.202.201.27 | 8888 | 9876 |  France  | EOSdac.io |
 | Galapago | 95.216.20.181 | 7010 | 7015 |  Germany | bitcoineos.fun |
 | Mpenjati | mpenjati.eosio.africa	 | 8888 | 9876 | Africa | EOS.IO Africa |
+| Cougars | testnet01.eoseoul.io	 | 8801 | 9901 | Korea, Seoul | EOSeoul.io |
 
 
 # Nodes waiting to be connected
