@@ -56,6 +56,7 @@ make install
 | volcano | jungle.cryptolions.io | 8888	| 9876	 | Ukraine, Kyiv | CryptoLions.io |
 | Lion | jungle.cryptolions.io | 8890	| 9890 | Ukraine, Kyiv | CryptoLions.io |
 | Tiger | 193.93.219.219 | 8888	| 9876 | Ukraine, Lviv | CryptoLions.io |
+| Rhino | jungle.eosnewyork.io | 8888 | 9876 | Central Canada | EOS New York |  
 
 
 # Nodes waiting to be connected
