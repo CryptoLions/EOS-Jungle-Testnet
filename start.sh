@@ -7,7 +7,7 @@
 ###############################################################################
 
 
-NODEOSBINDIR="/home/eos-DAWN-2018-03-30-ALPHA/eos/build/programs/nodeos"
+NODEOSBINDIR="/home/eos-dawn-v3.0.0/eos/build/programs/nodeos"
 DATADIR="/opt/Jungle3Testnet"
 
 ./stop.sh
