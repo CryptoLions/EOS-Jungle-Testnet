@@ -1,10 +1,10 @@
 # Welcome to the Jungle3 Testnet
 EOS public test network: Jungle3   
-Based on: DAWN-2018-03-30-ALPHA  
+Based on: dawn-v3.0.0 release  
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
 
-Check the Nodes status in <a target="_blank" href="http://jungle.cryptolions.io:9898/monitor3/">Network Monitor</a>
+Check the Nodes status in <a target="_blank" href="http://jungle.cryptolions.io:9898/monitor/">Network Monitor</a>
 
 To participate as block producer please contact us in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>
 
@@ -12,11 +12,11 @@ To participate as block producer please contact us in <a target="_blank" href="h
 # Howto Install EOS node:  
   
 
-mkdir /home/eos-DAWN-2018-03-30-ALPHA  
-cd /home/eos-DAWN-2018-03-30-ALPHA  
+mkdir /home/eos-dawn-v3.0.0  
+cd /home/eos-dawn-v3.0.0  
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
-git checkout DAWN-2018-03-30-ALPHA  
+git checkout dawn-v3.0.0  
 git submodule update --recursive  
 ./eosio_build.sh  
 cd build  
@@ -55,9 +55,16 @@ make install
 # BP Nodes Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
-| volcano | jungle.cryptolions.io | 8900	| 9899	 | Ukraine, Kyiv | CryptoLions.io |
-| Lion | jungle.cryptolions.io | 8898	| 9886 | Ukraine, Kyiv | CryptoLions.io |
-| Tiger | 193.93.219.219 | 8889	| 9877 | Ukraine, Lviv | CryptoLions.io |
+| volcano | jungle.cryptolions.io | 8888	| 9876	 | Ukraine, Kyiv | CryptoLions.io |
+| Lion | jungle.cryptolions.io | 8890	| 9890 | Ukraine, Kyiv | CryptoLions.io |
+| Tiger | 193.93.219.219 | 8888	| 9876 | Ukraine, Lviv | CryptoLions.io |
+
+
+# Nodes waiting to be connected
+| BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
+|---------|---------|-------------|------------|----------|--------------|
+| Rhino | 220.241.204.237	 | 8888 | 9876 | Hong Kong | HKEOS |
+| Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | EOS Taiwan	 |
 | Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
 | Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
@@ -79,12 +86,6 @@ make install
 | Tokki | bpseoul.eosnodeone.io	 | 8888 | 9876 | Seoul | eosnodeone.io |
 | Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
 | Honeybadger | 35.189.107.125	| 8888 | 9876 | Uk, London | EOS42 |
-
-# Nodes waiting to be connected
-| BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
-|---------|---------|-------------|------------|----------|--------------|
-| Rhino | 220.241.204.237	 | 8888 | 9876 | Hong Kong | HKEOS |
-| Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | EOS Taiwan	 |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
