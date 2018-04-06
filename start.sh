@@ -2,7 +2,7 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# https://github.com/CryptoLions/Jungle3Testnet
+# https://github.com/CryptoLions/EOS-Jungle-Testnet
 #
 ###############################################################################
 
