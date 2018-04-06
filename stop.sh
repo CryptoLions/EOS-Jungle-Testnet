@@ -6,7 +6,7 @@
 #
 ###############################################################################
 
-DIR="/opt/Jungle3Testnet"
+DIR="/opt/JungleTestnet"
 
 
     if [ -f $DIR"/nodeos.pid" ]; then
