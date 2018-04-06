@@ -87,7 +87,14 @@ make install
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
 | Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
-
+| Leopard | hlathi.eosio.africa | 8888  | 9877 | Africa | EOSio.africa |
+| Zebra | jungle.eosnewyork.io | 8888  | 9876 | Canada, Montreal | EOS New York |
+| Crow | 47.92.97.56 | 8888  | 9876 | China | EOS UIP |
+| Python |  python.prometeos.io | 8888 | 9876 | Spain | Prometeos.io |
+| Wolf | eosbrazil.com | 8890  | 9878 | Brazil, Sao Paulo | EOS Brazil  |
+| Boar | 138.68.238.129 | 8890  | 9876 | USA,  San Francisco | EOSBR |
+| Lizard | processing | ....  | .... | India | EOS India |
+| Cobra | processing | ....  | .... | China | CIGEOS |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
