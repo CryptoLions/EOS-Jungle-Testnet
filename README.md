@@ -74,7 +74,7 @@ make install
 | Galapago | 95.216.20.181 | 7010 | 7015 |  Germany | bitcoineos.fun |
 | Mpenjati | mpenjati.eosio.africa	 | 8888 | 9876 | Africa | EOS.IO Africa |
 | Cougars | testnet01.eoseoul.io	 | 8801 | 9901 | Korea, Seoul | EOSeoul.io |
-
+| Ladybird | 159.65.86.74 | 8888 | 9876 | Barcelona | EOSbcn |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
