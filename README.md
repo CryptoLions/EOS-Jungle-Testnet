@@ -77,6 +77,7 @@ make install
 | Ladybird | 159.65.86.74 | 8888 | 9876 | Barcelona | EOSbcn |
 | Giraffe | 154.48.249.19	| 8888 | 9876 | Hongkong | Niuchain |
 | Rhino | 218.253.69.190	| 8888 | 9876 | Hong Kong | HKEOS |
+| Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
@@ -87,7 +88,6 @@ make install
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
 | Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
-| Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
 | Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
 | Leopard | hlathi.eosio.africa | 8888  | 9877 | Africa | EOSio.africa |
 | Zebra | jungle.eosnewyork.io | 8888  | 9876 | Canada, Montreal | EOS New York |
