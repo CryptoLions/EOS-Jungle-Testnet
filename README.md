@@ -75,11 +75,12 @@ make install
 | Mpenjati | mpenjati.eosio.africa	 | 8888 | 9876 | Africa | EOS.IO Africa |
 | Cougars | testnet01.eoseoul.io	 | 8801 | 9901 | Korea, Seoul | EOSeoul.io |
 | Ladybird | 159.65.86.74 | 8888 | 9876 | Barcelona | EOSbcn |
+| Giraffe | 154.48.249.19	| 8888 | 9876 | Hongkong | Niuchain |
+| Rhino | 218.253.69.190	| 8888 | 9876 | Hong Kong | HKEOS |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
-| Rhino | 220.241.204.237	 | 8888 | 9876 | Hong Kong | HKEOS |
 | Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | EOS Taiwan	 |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
 | Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
