@@ -10,7 +10,7 @@
 NODEOSBINDIR="/home/eos-dawn-v3.0.0/eos/build/programs/nodeos"
 DATADIR="/opt/JungleTestnet"
 
-./stop.sh
+$DATADIR/stop.sh
 echo "Starting Nodeos \n";
 
 $NODEOSBINDIR/nodeos --data-dir $DATADIR --config-dir $DATADIR > $DATADIR/stdout.txt 2> $DATADIR/stderr.txt &  echo $! > $DATADIR/nodeos.pid
