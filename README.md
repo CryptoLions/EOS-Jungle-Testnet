@@ -82,15 +82,16 @@ make install
 | Ant | robotikalis.ddns.net	| 8888 | 9876 | India | EOSIndia	 |
 | Snake | testnet.eosindia.io		| 8888 | 9876 | London | EOS-East	 |
 | Tapir | 195.201.131.218	| 8888 | 9876 | Germany | 0xc0ffee	 |
+| Boar | 138.68.238.129	 | 8890  | 9876 | USA,  San Francisco | EOSBR |
 | Spider | 211.159.182.240	| 8888 | 9876 | China , Beijing | 北京星云比特科技有限公司		 |
-
+| Koala | jungle.genereos.io | 8888 | 9876 | Australia, Sydney  | GenerEOS |
+| Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
 | Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | EOS Taiwan	 |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
-| Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
@@ -99,7 +100,6 @@ make install
 | Crow | 47.92.97.56 | 8888  | 9876 | China | EOS UIP |
 | Python |  python.prometeos.io | 8888 | 9876 | Spain | Prometeos.io |
 | Wolf | eosbrazil.com | 8890  | 9878 | Brazil, Sao Paulo | EOS Brazil  |
-| Boar | 138.68.238.129 | 8890  | 9876 | USA,  San Francisco | EOSBR |
 | Lizard | processing | ....  | .... | India | EOS India |
 | Cobra | processing | ....  | .... | China | CIGEOS |
 
