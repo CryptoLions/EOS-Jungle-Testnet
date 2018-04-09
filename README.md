@@ -79,8 +79,8 @@ make install
 | Giraffe | 154.48.249.19	| 8888 | 9876 | Hongkong | Niuchain |
 | Rhino | 218.253.69.190	| 8888 | 9876 | Hong Kong | HKEOS |
 | Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
-| Ant | robotikalis.ddns.net	| 8888 | 9876 | India | EOSIndia	 |
-| Snake | testnet.eosindia.io		| 8888 | 9876 | London | EOS-East	 |
+| Ant | robotikalis.ddns.net	| 8888 | 9876 | London | EOS-East	 |
+| Snake | testnet.eosindia.io		| 8888 | 9876 | India | EOSIndia	 |
 | Tapir | 195.201.131.218	| 8888 | 9876 | Germany | 0xc0ffee	 |
 | Boar | 138.68.238.129	 | 8890  | 9876 | USA,  San Francisco | EOSBR |
 | Spider | 211.159.182.240	| 8888 | 9876 | China , Beijing | 北京星云比特科技有限公司		 |
