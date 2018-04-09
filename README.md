@@ -63,6 +63,7 @@ make install
 | Elephant | 18.188.52.250	| 8877  | 9876 | USA | Blockpro.one |
 | Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
 | Fox | eosrio.entropia.in | 8887 | 9875 |  Brazil, Rio de Janeiro  | EOS Rio |
+| Gorilla | v3gorilla.jungle.eosnottingham.io	| 8427 | 9927 |  UK | EOSnottingham.io |
 | Honeybadger | 35.189.107.125	| 8888 | 9876 | Uk, London | EOS42 |
 | Wombat | pearls.capital | 8888 | 9876 |  russia, moscow | pearls.capital |
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
@@ -78,6 +79,11 @@ make install
 | Giraffe | 154.48.249.19	| 8888 | 9876 | Hongkong | Niuchain |
 | Rhino | 218.253.69.190	| 8888 | 9876 | Hong Kong | HKEOS |
 | Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
+| Ant | robotikalis.ddns.net	| 8888 | 9876 | India | EOSIndia	 |
+| Snake | testnet.eosindia.io		| 8888 | 9876 | London | EOS-East	 |
+| Tapir | 195.201.131.218	| 8888 | 9876 | Germany | 0xc0ffee	 |
+| Spider | 211.159.182.240	| 8888 | 9876 | China , Beijing | 北京星云比特科技有限公司		 |
+
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
@@ -86,7 +92,6 @@ make install
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
 | Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
-| Gorilla | v3gorilla.jungle.eosnottingham.io | 8427 | 9927 |  UK | EOSnottingham.io |
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
 | Leopard | hlathi.eosio.africa | 8888  | 9877 | Africa | EOSio.africa |
