@@ -88,11 +88,13 @@ tar xf boost_1.66.0.tar.bz2 ---> tar xf boost_1_66_0.tar.bz2
 | Spider | 211.159.182.240	| 8888 | 9876 | China , Beijing | 北京星云比特科技有限公司		 |
 | Koala | jungle.genereos.io | 8888 | 9876 | Australia, Sydney  | GenerEOS |
 | Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
+| Unicorn | 39.108.231.157 | 8888 | 9876 |  China  | SuperONE.io |
+| Scorpion | 139.198.3.99 | 8888 | 9876 |  China, Peking  | EOS Zodiac |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
-| Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | EOS Taiwan	 |
+| Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | CIGEOS |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
@@ -103,7 +105,6 @@ tar xf boost_1.66.0.tar.bz2 ---> tar xf boost_1_66_0.tar.bz2
 | Python |  python.prometeos.io | 8888 | 9876 | Spain | Prometeos.io |
 | Wolf | eosbrazil.com | 8890  | 9878 | Brazil, Sao Paulo | EOS Brazil  |
 | Lizard | processing | ....  | .... | India | EOS India |
-| Cobra | processing | ....  | .... | China | CIGEOS |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
