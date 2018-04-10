@@ -22,6 +22,8 @@ git submodule update --recursive
 cd build  
 make install
 
+If You have problems with Boost - please edit 114 line in eosio_build_ubuntu.sh and  change:  
+tar xf boost_1.66.0.tar.bz2 ---> tar xf boost_1_66_0.tar.bz2  
 
 # How to configure node and test BP
 - Create data-dir folder for you node:
