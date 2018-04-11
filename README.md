@@ -90,6 +90,7 @@ tar xf boost_1.66.0.tar.bz2 ---> tar xf boost_1_66_0.tar.bz2
 | Beaver | 54.200.153.106 | 8888 | 9876 |  Canada, Calgary  | EOS Calgary |
 | Unicorn | 39.108.231.157 | 8888 | 9876 |  China  | SuperONE.io |
 | Scorpion | 139.198.3.99 | 8888 | 9876 |  China, Peking  | EOS Zodiac |
+| Hummingbird | jungle.eoseco.net | 8888 | 9876 |  China, Shanghai  | EOSeco |
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
