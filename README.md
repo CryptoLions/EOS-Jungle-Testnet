@@ -16,14 +16,14 @@ mkdir /home/eos-dawn-v3.0.0
 cd /home/eos-dawn-v3.0.0  
 git clone https://github.com/eosio/eos --recursive    
 cd eos 
-git checkout master
-git pull
-git submodule update —init —recursive
+git checkout master  
+git pull  
+git submodule update —init —recursive  
 <!--git checkout dawn-v3.0.0  
 git submodule update --recursive  -->
 ./eosio_build.sh  
 cd build  
-make install
+make install  
 
 <!--If You have problems with Boost - please edit 114 line in eosio_build_ubuntu.sh and  change:  
 tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2  -->
