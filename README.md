@@ -15,7 +15,7 @@ To participate as block producer please contact us in <a target="_blank" href="h
 mkdir /home/eos-dawn-v3.0.0  
 cd /home/eos-dawn-v3.0.0  
 git clone https://github.com/eosio/eos --recursive    
-cd eos 
+cd eos  
 git checkout master  
 git pull  
 git submodule update —init —recursive  
