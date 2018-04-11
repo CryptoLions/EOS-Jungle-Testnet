@@ -18,7 +18,7 @@ git clone https://github.com/eosio/eos --recursive
 cd eos  
 git checkout master  
 git pull  
-git submodule update —init —recursive  
+git submodule update --init --recursive  
 <!--git checkout dawn-v3.0.0  
 git submodule update --recursive  -->
 ./eosio_build.sh  
