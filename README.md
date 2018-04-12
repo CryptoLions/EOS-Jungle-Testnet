@@ -84,7 +84,7 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Giraffe | 154.48.249.19	| 8888 | 9876 | Hongkong | Niuchain |
 | Rhino | 218.253.69.190	| 8888 | 9876 | Hong Kong | HKEOS |
 | Cheetah | cheetah.jungle3.bptn.eosamsterdam.net	 | 8888 | 9876 | Amsterdam | EOS Amsterdam |
-| Ant | robotikalis.ddns.net	| 8888 | 9876 | London | EOS-East	 |
+| Termite | robotikalis.ddns.net	| 8888 | 9876 | London | EOS-East	 |
 | Snake | testnet.eosindia.io		| 8888 | 9876 | India | EOSIndia	 |
 | Tapir | 195.201.131.218	| 8888 | 9876 | Germany | 0xc0ffee	 |
 | Boar | 138.68.238.129	 | 8890  | 9876 | USA,  San Francisco | EOSBR |
@@ -119,5 +119,6 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Python |  python.prometeos.io | 8888 | 9876 | Spain | Prometeos.io |
 | Wolf | eosbrazil.com | 8890  | 9878 | Brazil, Sao Paulo | EOS Brazil  |
 | Lizard | processing | ....  | .... | India | EOS India |
+| Ant | robotikalis.ddns.net	| 8888 | 9876 | London | EOS-East	 |
 
 
