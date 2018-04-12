@@ -94,12 +94,20 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Unicorn | 39.108.231.157 | 8888 | 9876 |  China  | SuperONE.io |
 | Scorpion | 139.198.3.99 | 8888 | 9876 |  China, Peking  | EOS Zodiac |
 | Hummingbird | jungle.eoseco.net | 8888 | 9876 |  China, Shanghai  | EOSeco |
+| Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
+| Dragon | 185.244.150.11		 | 8888 | 9876 | Netherlands | Massive Dibamics |
+
+# Nodes
+| Address | Port (http) | Port (p2p) | Location | Organisation |
+|---------|-------------|------------|----------|--------------|
+| 54.233.222.22 |	8886 | 9874 |	Brazil, Rio de Janeiro | EOS Rio |
+| 193.93.219.219 |	6888 | 7876 |	CryptoLions.io | Ukraine, Lviv |
+
 
 # Nodes waiting to be connected
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|---------|-------------|------------|----------|--------------|
 | Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | CIGEOS |
-| Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
@@ -110,8 +118,4 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Wolf | eosbrazil.com | 8890  | 9878 | Brazil, Sao Paulo | EOS Brazil  |
 | Lizard | processing | ....  | .... | India | EOS India |
 
-# Nodes
-| Address | Port (http) | Port (p2p) | Location | Organisation |
-|---------|-------------|------------|----------|--------------|
-| 34.206.54.155 |	8888 | 9876 |	Brazil, Rio de Janeiro | EOS Rio |
 
