@@ -96,6 +96,7 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Hummingbird | jungle.eoseco.net | 8888 | 9876 |  China, Shanghai  | EOSeco |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
 | Dragon | 185.244.150.11		 | 8888 | 9876 | Netherlands | Massive Dibamics |
+| Macaw | 52.44.113.122		 | 80 | 9876 | USA | EOSMX |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
