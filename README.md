@@ -98,6 +98,8 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Dragon | 185.244.150.11		 | 8888 | 9876 | Netherlands | Massive Dibamics |
 | Macaw | 52.44.113.122		 | 80 | 9876 | USA | EOSMX |
 | Parrot | testchain.jscut.org	| 8888 | 9876 | USA, Virginia | Todd Fleming	 |
+| Pug | 120.79.155.118	| 8888 | 9876 | China, Shenzhen | ViaBTC |
+| Capybara | testnet.eosdublin.io		| 8444 | 9878 | Dublin | EOSDublin.com	 |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
