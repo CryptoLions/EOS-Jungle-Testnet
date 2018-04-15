@@ -95,7 +95,7 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Scorpion | 139.198.3.99 | 8888 | 9876 |  China, Peking  | EOS Zodiac |
 | Hummingbird | jungle.eoseco.net | 8888 | 9876 |  China, Shanghai  | EOSeco |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
-| Leaf | 185.244.150.11	 | 8888 | 9876 | Netherlands | Massive Dibamics |
+| Dragon | 185.244.150.11		 | 8888 | 9876 | Netherlands | Massive Dibamics |
 | Macaw | 52.44.113.122		 | 80 | 9876 | USA | EOSMX |
 | Parrot | testchain.jscut.org	| 8888 | 9876 | USA, Virginia | Todd Fleming	 |
 | Pug | 120.79.155.118	| 8888 | 9876 | China, Shenzhen | ViaBTC |
@@ -103,6 +103,15 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Bear | eosslc.com	| 8889 | 9877 | USA, Bluffdale, UT | EOS SLC		 |
 | Hedgehog | jungle.worbli.io	| 8888 | 9876 | USA, Ohio | Worbli		 |
 | Crow | 47.92.97.56 | 8888  | 9876 | China | EOS UIP |
+| Wildcat | stealthbp.ddns.net | 8800  | 6600 | Seoul | EOS Asia |
+| Elk | 47.52.18.70	 | 8388  | 3389 | Hong Kong | EOS Gravity	 |
+| Tarsier | jungle.eos.blckchnd.com	 | 8888  | 9876 | Germany, Falkenstein | blckchnd.com	 |
+| Toucan | 128.1.133.206	 | 8888  | 9876 | Hong Kong | wancloud |
+| Bull | 47.52.64.9		| 8888  | 9876 | China | EOS.Hedging	 |
+| Doppelganger | 52.37.122.21	 | 8888  | 9876 | USA, Oregon | James Sutherland	|
+| Eagle | eosbeijing.one		 | 8888  | 9876 | Hongkong |EOS Beijing		|
+| Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
+| Raven | 52.58.245.131	 | 8888 | 9876 | Frankfurt | EOS NL |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
@@ -116,7 +125,6 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 |---------|---------|-------------|------------|----------|--------------|
 | Panda | 218.18.171.81	 | 8888 | 9876 | Taiwan | CIGEOS |
 | Wolf | eosbrazil.com | 8884 | 9873 |  Brazil  | EOSbrazil.co |
-| Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Snake | testnet.eosindia.io	 | 8888 | 9876 | India | EOSIndia |
 | Leopard | hlathi.eosio.africa | 8888  | 9877 | Africa | EOSio.africa |
 | Zebra | jungle.eosnewyork.io | 8888  | 9876 | Canada, Montreal | EOS New York |
