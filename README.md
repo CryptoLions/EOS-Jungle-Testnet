@@ -95,7 +95,7 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Scorpion | 139.198.3.99 | 8888 | 9876 |  China, Peking  | EOS Zodiac |
 | Hummingbird | jungle.eoseco.net | 8888 | 9876 |  China, Shanghai  | EOSeco |
 | Kangaroo | jungle.eosphere.io | 8888 | 9876 |  Australia | EOSphere.io |
-| Dragon | 185.244.150.11		 | 8888 | 9876 | Netherlands | Massive Dibamics |
+| Leaf | 185.244.150.11		 | 8888 | 9876 | Netherlands | Massive Dibamics |
 | Macaw | 52.44.113.122		 | 80 | 9876 | USA | EOSMX |
 | Parrot | testchain.jscut.org	| 8888 | 9876 | USA, Virginia | Todd Fleming	 |
 | Pug | 120.79.155.118	| 8888 | 9876 | China, Shenzhen | ViaBTC |
@@ -112,6 +112,8 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Eagle | eosbeijing.one		 | 8888  | 9876 | Hongkong |EOS Beijing		|
 | Wolverine | 35.182.46.236	 | 9879 | 6879 | Canada, Monreal | BP Node |
 | Raven | 52.58.245.131	 | 8888 | 9876 | Frankfurt | EOS NL |
+| Gazelle | 198.58.114.211		 | 8888 | 9876 | USA | BlockSmith |
+| Marten | 217.115.85.26	 | 8888 | 9876 | Russia | TestNode |
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
