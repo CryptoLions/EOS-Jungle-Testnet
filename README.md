@@ -68,7 +68,7 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Elephant | 18.188.52.250	| 8877  | 9876 | USA | Blockpro.one |
 | Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
 | Fox | eosrio.entropia.in | 8887 | 9875 |  Brazil, Rio de Janeiro  | EOS Rio |
-| Gorilla | v3gorilla.jungle.eosnottingham.io	| 8427 | 9927 |  UK | EOSnottingham.io |
+| Gorilla | Jungle.eosuk.io	| 8427 | 9927 |  UK | EOS UK |
 | Honeybadger | 35.189.107.125	| 8888 | 9876 | Uk, London | EOS42 |
 | Wombat | pearls.capital | 8888 | 9876 |  russia, moscow | pearls.capital |
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
@@ -117,6 +117,7 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Hippo | 107.150.102.38		 | 8888 | 9876 | USA, Los Angeles | EOSBlock.co	 |
 | Racoon | 188.117.144.164	 | 8889 | 9877 | Poland | eosemerge.io	 |
 | Quokka | quokka.eosreal.io		 | 8868 | 9886 | Mumbai-AWS | EOSREAL |
+| Rabbit | 119.3.22.124		 | 8888 | 9876 | China | EOS Cannon |
 
 
 
