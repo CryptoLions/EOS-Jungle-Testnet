@@ -114,6 +114,11 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Raven | 52.58.245.131	 | 8888 | 9876 | Frankfurt | EOS NL |
 | Gazelle | 198.58.114.211		 | 8888 | 9876 | USA | BlockSmith |
 | Marten | 217.115.85.26	 | 8888 | 9876 | Russia | TestNode |
+| Hippo | 107.150.102.38		 | 8888 | 9876 | USA, Los Angeles | EOSBlock.co	 |
+| Racoon | 188.117.144.164	 | 8889 | 9877 | Poland | eosemerge.io	 |
+| Quokka | quokka.eosreal.io		 | 8868 | 9886 | Mumbai-AWS | EOSREAL |
+
+
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
