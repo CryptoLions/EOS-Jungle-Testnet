@@ -118,6 +118,8 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Racoon | 188.117.144.164	 | 8889 | 9877 | Poland | eosemerge.io	 |
 | Quokka | quokka.eosreal.io		 | 8868 | 9886 | Mumbai-AWS | EOSREAL |
 | Rabbit | 119.3.22.124		 | 8888 | 9876 | China | EOS Cannon |
+| Mamba | 5280.duckdns.org	 | 8888 | 9876 | USA, Denver, CO | Mamba |
+| Monkey | meow.eoslaomao.com | 80 | 9876 | Japan, Tokyo | EOSLaoMao.com |
 
 
 
