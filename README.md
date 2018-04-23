@@ -1,6 +1,6 @@
 # Welcome to the EOS Jungle Testnet
 EOS public test network: Jungle   
-Based on: master <!--dawn-v3.0.0 release-->
+Based on: DAWN-2018-04-23-ALPHA <!--dawn-v3.0.0 release-->
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
 
@@ -19,7 +19,7 @@ cd eos
 <!--git checkout master  
 git pull  
 git submodule update --init --recursive --> 
-git checkout dawn-v3.0.0  
+git checkout DAWN-2018-04-23-ALPHA  
 git submodule update --recursive  
 ./eosio_build.sh  
 cd build  
