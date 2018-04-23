@@ -1,6 +1,6 @@
 # Welcome to the EOS Jungle Testnet
-EOS public test network: Jungle   
-Based on: DAWN-2018-04-23-ALPHA <!--dawn-v3.0.0 release-->
+EOS public test network: Jungle     
+Based on: DAWN-2018-04-23-ALPHA <!--dawn-v3.0.0 release-->  
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
 
