@@ -120,6 +120,10 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Rabbit | 119.3.22.124		 | 8888 | 9876 | China | EOS Cannon |
 | Mamba | 5280.duckdns.org	 | 8888 | 9876 | USA, Denver, CO | Mamba |
 | Monkey | meow.eoslaomao.com | 80 | 9876 | Japan, Tokyo | EOSLaoMao.com |
+| Glowwarm | dev.chainpool.io | 7780 | 7781 | Japan, Tokyo | ChainPool |
+| Frog | eos-bp.bitfinex.com | 8888 | 9876 | Switzerland, Zurich | Bitfinex |
+| Dolphin | 34.251.121.82 | 8888 | 9876 | Ireland | EOSEOS |
+| Lamb | 173.212.227.190 | 8888 | 9876 | Germany, Kassel | EOSVibes |
 
 
 
