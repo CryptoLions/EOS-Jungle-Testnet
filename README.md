@@ -34,8 +34,7 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 - Download files config.ini, genesis.json, start.sh, stop.sh and put in this folder /opt/JungleTestnet
 - All paths in files are binded to this data folder
 - add execution rights  
-  chmod 777 /opt/JungleTestnet/start.sh  
-  chmod 777 /opt/JungleTestnet/stop.sh  
+  chmod 777 /opt/JungleTestnet/*.sh  
   
 - Choose your producer name (any jungle animal ;) and create own EOS key pair  
   you can create key pair using cleos command ./cleos create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
