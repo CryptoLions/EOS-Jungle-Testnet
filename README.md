@@ -124,12 +124,12 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Frog | eos-bp.bitfinex.com | 8888 | 9876 | Switzerland, Zurich | Bitfinex |
 | Dolphin | 34.251.121.82 | 8888 | 9876 | Ireland | EOSEOS |
 | Lamb | 173.212.227.190 | 8888 | 9876 | Germany, Kassel | EOSVibes |
-| alligator | bp-test.ono.chat | 8888 | 9876 | Japan, Tokyo | eosONO |
-| ocelot | avocado-toast.sandwich.farm | 8888 | 9876 | NL, Amsterdam | sandwich.farm |
-| koalabear | 18.219.28.205 | 8886 | 9876 | Singapore | EosLove |
-| croc | 34.209.174.121 | 8888 | 9876 | USA, Oregon | EOS Floripa |
-| duck | test.eosys.io | 8888 | 9874 | Korea, Seoul | EOSYS |
-| pony | 13.114.33.147 | 8888 | 9876 | Japan | www.eoshuobipool.com	 |
+| Alligator | bp-test.ono.chat | 8888 | 9876 | Japan, Tokyo | eosONO |
+| Ocelot | avocado-toast.sandwich.farm | 8888 | 9876 | NL, Amsterdam | sandwich.farm |
+| Koalabear | 18.219.28.205 | 8886 | 9876 | Singapore | EosLove |
+| Croc | 34.209.174.121 | 8888 | 9876 | USA, Oregon | EOS Floripa |
+| Duck | test.eosys.io | 8888 | 9874 | Korea, Seoul | EOSYS |
+| Pony | 13.114.33.147 | 8888 | 9876 | Japan | www.eoshuobipool.com	 |
 
 
 
