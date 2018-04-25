@@ -12,4 +12,4 @@ WALLETHOST="127.0.0.1"
 NODEPORT="8888"
 WALLETPORT="3000"
 
-$EOSIOBINDIR/cleos/cleos -p $NODEPORT --wallet-host $WALLETHOST --wallet-port $WALLETPORT "$@"
+$NODEOSBINDIR/cleos/cleos -p $NODEPORT --wallet-host $WALLETHOST --wallet-port $WALLETPORT "$@"
