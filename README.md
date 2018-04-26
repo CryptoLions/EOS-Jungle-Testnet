@@ -129,14 +129,22 @@ tar xf boost_1.66.0.tar.bz2 -> tar xf boost_1_66_0.tar.bz2
 | Croc | 34.209.174.121 | 8888 | 9876 | USA, Oregon | EOS Floripa |
 | Duck | test.eosys.io | 8888 | 9874 | Korea, Seoul | EOSYS |
 | Pony | 13.114.33.147 | 8888 | 9876 | Japan | www.eoshuobipool.com	 |
-
+| Orca | 113.208.116.110 | 8888 | 9876 | China | EOS Galaxy	 |
+| Earthworm | 35.192.58.50 | 8888 | 9876 | USA | 	EOS Plane | 
+| Toad | bptn.eosraychain.com	 | 80 | 9888 | Hong Kong | 	eosraychain.com |
+| Shark | 13.211.63.122	 | 8888 | 9876 | Newzealand | EOSNz	 |
+| Puffin | 54.189.199.39 | 8888 | 9876 | Canada, Vancouver | eosvan.com		 |
+| Fatmouse | eos.shangtv.cn	 | 28888 | 29876 | China | 	EOS HDTap |
+| Dogo | n2.eosargentina.io	 | 8888 | 9876 | USA, Miami | eosargentina.io	 |
 
 
 # Nodes
 | Address | Port (http) | Port (p2p) | Location | Organisation |
 |---------|-------------|------------|----------|--------------|
 | 54.233.222.22 |	8886 | 9874 |	Brazil, Rio de Janeiro | EOS Rio |
-| 193.93.219.219 |	6888 | 7876 |	CryptoLions.io | Ukraine, Lviv |
+| node-d3.eos42.io	|	6888 | 9876 |	EOS42 | UK, London |
+| node2-d3.eos42.io		|	8888 | 9876 |	EOS42 | UK, London |
+| axolotl.eoscalgary.com	|	80 | 9878 |	EOS.Cafe	 | Canada |
 
 
 # Nodes waiting to be connected
