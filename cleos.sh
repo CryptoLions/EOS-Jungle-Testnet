@@ -9,7 +9,10 @@
 NODEOSBINDIR="/home/eos-dawn-v3.0.0/eos/build/programs"
 
 WALLETHOST="127.0.0.1"
+NODEHOST="127.0.0.1"
 NODEPORT="8888"
 WALLETPORT="3000"
 
-$NODEOSBINDIR/cleos/cleos -p $NODEPORT --wallet-host $WALLETHOST --wallet-port $WALLETPORT "$@"
+
+
+$NODEOSBINDIR/cleos/cleos -u http://$NODEHOST:$NODEPORT --wallet-url http://$WALLETHOST:$WALLETPORT "$@"
