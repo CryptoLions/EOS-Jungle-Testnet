@@ -19,7 +19,7 @@ cd eos
 <!--git checkout master  
 git pull  
 git submodule update --init --recursive --> 
-git checkout DAWN-2018-04-23-ALPHA  
+git checkout DAWN-2018-04-27-ALPHA
 git submodule update --init --recursive  
 ./eosio_build.sh  
 cd build  
