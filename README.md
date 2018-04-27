@@ -16,10 +16,8 @@ mkdir /home/eos-dawn-v3.0.0
 cd /home/eos-dawn-v3.0.0  
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
-<!--git checkout master  
-git pull  
-git submodule update --init --recursive --> 
-git checkout DAWN-2018-04-27-ALPHA
+
+git checkout DAWN-2018-04-27-ALPHA  
 git submodule update --init --recursive  
 ./eosio_build.sh  
 cd build  
