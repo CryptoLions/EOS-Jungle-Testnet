@@ -10,7 +10,7 @@
 NODEOSBINDIR="/home/eos-dawn-v3.0.0/eos/build/programs"
 DATADIR="/opt/JungleTestnet/Wallet"
 WALLET_HOST="127.0.0.1"
-WALLET_POSRT="30000"
+WALLET_POSRT="3000"
 
 
 $DATADIR/stop_wallet.sh
