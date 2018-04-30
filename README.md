@@ -30,21 +30,21 @@ make install
   cd /opt/JungleTestnet
   git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./
 - add execution rights  
-  chmod -R 777 ./*.sh 
-  chmod -R 777 ./Wallet/*.sh 
+  chmod -R 777 ./*.sh   
+  chmod -R 777 ./Wallet/*.sh  
 
 - Id you use different folder then in example -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini (path to genesis), Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
 
 - Choose your producer name (any jungle animal ;) and create own EOS key pair  
-  you can create key pair using cleos command ./cleos.sh create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
-- Register account for your producer using created key:
-  http://jungle.cryptolions.io:9898/monitor/#account
+  you can create key pair using cleos command ./cleos.sh create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.  
+- Register account for your producer using created key:  
+  http://jungle.cryptolions.io:9898/monitor/#account  
   
-- Edit in config.ini next parameters:
-  -- server address: p2p-server-address = YOUR_NODE_IP_ADDRESS:9876
-  -- your producer name: producer-name = YOUR_BP_NAME
-  -- created producer keypair: private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]
-  -- replace p2p-peer-address list with fresh generated on monitor site: http://jungle.cryptolions.io:9898/monitor/#p2p
+- Edit in config.ini next parameters:  
+  - server address: p2p-server-address = YOUR_NODE_IP_ADDRESS:9876  
+  - your producer name: producer-name = YOUR_BP_NAME  
+  - created producer keypair: private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]  
+  - replace p2p-peer-address list with fresh generated on monitor site: http://jungle.cryptolions.io:9898/monitor/#p2p  
   
 - Open http and p2p Ports on your firewall/router
 - Connect your node, run ./start.sh
