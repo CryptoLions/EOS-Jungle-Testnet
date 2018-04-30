@@ -65,9 +65,9 @@ make install
   http://jungle.cryptolions.io:9898/monitor/#faucet
 
 # Non BP node
-To run non producing node just comment out in config.ini  
- producer-name = YOUR_BP_NAME
- private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]
+To run non producing node just comment out in config.ini    
+ producer-name = YOUR_BP_NAME  
+ private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]  
 
 # BP Nodes Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
