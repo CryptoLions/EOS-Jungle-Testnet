@@ -177,7 +177,6 @@ To run non producing node just comment out in config.ini
 | Leopard | hlathi.eosio.africa | 8888  | 9877 | Africa | EOSio.africa |
 | Zebra | jungle.eosnewyork.io | 8888  | 9876 | Canada, Montreal | EOS New York |
 | Python |  python.prometeos.io | 8888 | 9876 | Spain | Prometeos.io |
-| Wolf | eosbrazil.com | 8890  | 9878 | Brazil, Sao Paulo | EOS Brazil  |
 | Lizard | processing | ....  | .... | India | EOS India |
 | Ant | robotikalis.ddns.net	| 8888 | 9876 | London | EOS-East	 |
 
