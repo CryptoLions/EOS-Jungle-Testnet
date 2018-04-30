@@ -26,14 +26,26 @@ make install
 # How to configure node and test BP
 - Create data-dir folder for you node:
   mkdir /opt/JungleTestnet  
-- Download files config.ini, genesis.json, start.sh, stop.sh and put in this folder /opt/JungleTestnet
-- All paths in files are binded to this data folder
+- Clone all files from this repository, ru:
+  cd /opt/JungleTestnet
+  git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./
 - add execution rights  
-  chmod 777 /opt/JungleTestnet/*.sh  
-  
+  chmod -R 777 ./*.sh 
+  chmod -R 777 ./Wallet/*.sh 
+
+- Id you use different folder then in example -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini (path to genesis), Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
+
 - Choose your producer name (any jungle animal ;) and create own EOS key pair  
-  you can create key pair using cleos command ./cleos create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
-- Edit config.ini with your producer name and created key pair
+  you can create key pair using cleos command ./cleos.sh create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.
+- Register account for your producer using created key:
+  http://jungle.cryptolions.io:9898/monitor/#account
+  
+- Edit in config.ini next parameters:
+  -- server address: p2p-server-address = YOUR_NODE_IP_ADDRESS:9876
+  -- your producer name: producer-name = YOUR_BP_NAME
+  -- created producer keypair: private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]
+  -- replace p2p-peer-address list with fresh generated on monitor site: http://jungle.cryptolions.io:9898/monitor/#p2p
+  
 - Open http and p2p Ports on your firewall/router
 - Connect your node, run ./start.sh
 - Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://jungle.cryptolions.io:8888/v1/chain/get_info" target="_blank">Example</a>)
