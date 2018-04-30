@@ -117,7 +117,7 @@ To run non producing node just comment out in config.ini
 | Bear | eosslc.com	| 8889 | 9877 | USA, Bluffdale, UT | EOS SLC		 |
 | Hedgehog | jungle.worbli.io	| 8888 | 9876 | USA, Ohio | Worbli		 |
 | Crow | 47.92.97.56 | 8888  | 9876 | China | EOS UIP |
-| Wildcat | stealthbp.ddns.net | 8800  | 6600 | Seoul | EOS Asia |
+| Wildcat | stealthbp.ddns.net | 8800  | 6600 | Korea, Seoul | EOS Asia |
 | Elk | 47.52.18.70	 | 8388  | 3389 | Hong Kong | EOS Gravity	 |
 | Tarsier | jungle.eos.blckchnd.com	 | 8888  | 9876 | Germany, Falkenstein | blckchnd.com	 |
 | Toucan | 128.1.133.206	 | 8888  | 9876 | Hong Kong | wancloud |
@@ -151,6 +151,13 @@ To run non producing node just comment out in config.ini
 | Puffin | 54.189.199.39 | 8888 | 9876 | Canada, Vancouver | eosvan.com		 |
 | Fatmouse | eos.shangtv.cn	 | 28888 | 29876 | China | 	EOS HDTap |
 | Dogo | n2.eosargentina.io	 | 8888 | 9876 | USA, Miami | eosargentina.io	 |
+| Pelican | jungle.eossv.org	 | 8888 | 9876 | USA, Oregon | EOS Silicon Valley	 |
+| Turtle | 13.209.32.21	 | 8888 | 9876 | Korea, Seoul | EOS R	 |
+| Baboon | eos.blockmatrix.network	 | 8888 | 9876 | UK, London | Block Matrix	 |
+| Mole | 159.89.124.54	 | 8888 | 9876 | Canada, Toronto | Eos Land	 |
+| Cariboo | 159.89.124.54	 | 8888 | 9876 | Canada, Toronto | EOS Nation	 |
+| Meerkat | 211.222.107.234	 | 8888 | 9876 | Korea, Incheon | IBCT.io	 |
+
 
 
 # Nodes
