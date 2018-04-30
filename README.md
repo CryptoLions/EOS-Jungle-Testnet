@@ -46,8 +46,11 @@ make install
   - created producer keypair: private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]  
   - replace p2p-peer-address list with fresh generated on monitor site: http://jungle.cryptolions.io:9898/monitor/#p2p  
   
-- Open http and p2p Ports on your firewall/router
-- Connect your node, run ./start.sh
+- Open http and p2p Ports on your firewall/router  
+- Connect your node, run ./start.sh  
+- Start wallet, run ./Wallet/start.sh  
+- Import your address ./cleos.sh wallet import <YOUR_PRIVKEY>
+
 - Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://jungle.cryptolions.io:8888/v1/chain/get_info" target="_blank">Example</a>)
 
 - if your node is connected and synced -  **Send Request** in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> with next information:  
@@ -58,8 +61,13 @@ make install
 - After receving your requst, node will be added to monitor, as Block producer.  
   Account will be created and initial EOS will be sent.  
   
-  
+ - Get test EOS tokens:
+  http://jungle.cryptolions.io:9898/monitor/#faucet
 
+# Non BP node
+To run non producing node just comment out in config.ini  
+ producer-name = YOUR_BP_NAME
+ private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]
 
 # BP Nodes Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
