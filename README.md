@@ -79,11 +79,10 @@ To run non producing node just comment out in config.ini
 | Bat | ctestnet.eosio.se | 8062 | 6602 | Sweden | EOSio.se |
 | Mowgli | mowgli.jungle3.eos.roelandp.nl | 8765 | 9876 | Germany | roelandp.nl/eos |
 | Dragonfly | 93.176.188.7 | 8888 | 9876 | Barcelona | EOSbcn |
-| Elephant | 18.188.52.250	| 8877  | 9876 | USA | Blockpro.one |
+| Elephant2 | 18.188.52.250	| 8877  | 9876 | USA | Blockpro.one |
 | Mosquito | mosquito.prometeos.io | 8889 | 9877 |  Spain | IberEOS |
 | Fox | eosrio.entropia.in | 8887 | 9875 |  Brazil, Rio de Janeiro  | EOS Rio |
 | Gorilla | Jungle.eosuk.io	| 8427 | 9927 |  UK | EOS UK |
-| Honeybadger | 35.189.107.125	| 8888 | 9876 | Uk, London | EOS42 |
 | Wombat | pearls.capital | 8888 | 9876 |  russia, moscow | pearls.capital |
 | Sloth | 188.166.226.110 | 8888 | 9876 |  Singapore  | EOS Botetourt |
 | Langurs | eosgreen.uk.to | 8888 | 9876 |  UK | EOSgreen.io |
