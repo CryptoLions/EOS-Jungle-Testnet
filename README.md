@@ -30,8 +30,8 @@ make install
   cd /opt/JungleTestnet
   git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./
 - add execution rights  
-  chmod -R 777 ./*.sh   
-  chmod -R 777 ./Wallet/*.sh  
+  chmod -R 777 ./\*.sh   
+  chmod -R 777 ./Wallet/\*.sh  
 
 - Id you use different folder then in example -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini (path to genesis), Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
 
