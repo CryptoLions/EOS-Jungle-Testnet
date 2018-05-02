@@ -48,7 +48,7 @@ make install
   
 - Open http and p2p Ports on your firewall/router  
 - Connect your node, run ./start.sh  
-- Start wallet, run ./Wallet/start.sh  
+- Start wallet, run ./Wallet/start_wallet.sh  
 - Import your address ./cleos.sh wallet import <YOUR_PRIVKEY>
 
 - Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://jungle.cryptolions.io:8888/v1/chain/get_info" target="_blank">Example</a>)
