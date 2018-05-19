@@ -6,6 +6,11 @@ To register you node in dawn4 use this link:
 http://dev.cryptolions.io/#register
 
 
+In case manual compilation please change token symbol from SYS to EOS in CMakeLists.txt or run this command in EOS sources folder
+
+```ex -sc '16i|set( CORE_SYMBOL_NAME "EOS" )' -cx CMakeLists.txt```
+
+
 ===================================Outdated manual===================
 
 EOS public test network: Jungle     
