@@ -3,7 +3,7 @@
 Based on: DAWN-2018-05-16 
 
 To register you node in dawn4 use this link:
-http://dev.cryptolions.io/#register
+http://dev.cryptolions.io/#register  
 Jungle <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>
 
 In case manual compilation please change token symbol from SYS to EOS in CMakeLists.txt or run this command in EOS sources folder
