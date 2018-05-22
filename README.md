@@ -1,6 +1,6 @@
 # Welcome to the EOS Jungle Testnet
 
-Based on: DAWN-2018-05-16 
+Based on: dawn4.1 bnet tag 
 
 To register you node in dawn4 use this link:
 http://dev.cryptolions.io/#register  
@@ -8,7 +8,21 @@ Jungle <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>
 
 In case manual compilation please change token symbol from SYS to EOS in CMakeLists.txt or run this command in EOS sources folder
 
-```ex -sc '16i|set( CORE_SYMBOL_NAME "EOS" )' -cx CMakeLists.txt```
+git clone https://github.com/eosio/eos --recursive    
+cd eos  
+
+git checkout bnet 
+git submodule update --init --recursive  
+
+```
+sed -i.bak '16i\
+        set( CORE_SYMBOL_NAME "EOS" )\
+    ' CMakeLists.txt
+```
+
+./eosio_build.sh  
+
+
 
 
 ===================================Outdated manual===================
