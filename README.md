@@ -8,20 +8,21 @@ Jungle <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>
 
 In case manual compilation please change token symbol from SYS to EOS in CMakeLists.txt or run this command in EOS sources folder
 
+```
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
 git checkout bnet  
 git submodule update --init --recursive   
 
-```
+
 sed -i.bak '16i\  
         set( CORE_SYMBOL_NAME "EOS" )\  
     ' CMakeLists.txt  
-```
+
 
 ./eosio_build.sh   
-
+```
 
 
 
