@@ -1,5 +1,5 @@
 {
-  "initial_timestamp": "2018-03-18T12:00:00.000",
+    "initial_timestamp": "2018-03-22T23:00:00.000",
   "initial_key": "EOS5UDp9v8rQfrZwUPog8KetBo7cEEbMRrSpBJjfPqB3489Mz2b47",
   "initial_configuration": {
     "max_block_net_usage": 1048576,
@@ -21,5 +21,5 @@
     "max_authority_depth": 6,
     "max_generated_transaction_count": 16
   },
-  "initial_chain_id": "2018051800000000000000000000000000000000000000007472696e6974790a"
+  "initial_chain_id": "2018052300203000000000000000000000000000000000007472696e6974790a"
 }
