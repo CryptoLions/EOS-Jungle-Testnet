@@ -12,16 +12,11 @@ In case manual compilation please change token symbol from SYS to EOS in CMakeLi
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout bnet  
+git checkout DAWN-2018-05-22  
 git submodule update --init --recursive   
 
 
 sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt  
-
-#upgrade Boost to 1_67
-sed -i -e 's/1_66/1_67/g' scripts/eosio_build_ubuntu.sh
-sed -i -e 's/1.66/1.67/g' scripts/eosio_build_ubuntu.sh
-sed -i -e 's/1_66/1_67/g' eosio_build.sh
 
 ./eosio_build.sh   
 ```
