@@ -9,7 +9,7 @@
 ################################################################################
 ACCOUNT="acryptolions"
 PUBKEY="EOS74wRrQt96rGaEEBNrqWNN4VBebuJGuZrECdBYqLqFCiRzvt3ja"
-URL="http://dev.cryptolions.io"
+URL="http://cryptolions.io"
 
 ./cleos.sh system regproducer $ACCOUNT $PUBKEY "$URL" -p $ACCOUNT
 
