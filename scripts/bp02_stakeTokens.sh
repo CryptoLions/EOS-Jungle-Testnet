@@ -9,7 +9,8 @@
 ################################################################################
 FROM="acryptolions"
 TO="acryptolions"
-CPU="1000.0000 EOS"
 NET="1000.0000 EOS"
+CPU="1000.0000 EOS"
 
-./cleos.sh system delegatebw $FROM $TO "$CPU" "$NET" -p $FROM
+
+./cleos.sh system delegatebw $FROM $TO "$NET" "$CPU" -p $FROM
