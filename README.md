@@ -1,6 +1,6 @@
 # Welcome to the EOS Jungle Testnet
 
-Based on: dawn4.1 bnet tag 
+Based on: DAWN-2018-05-22 tag 
 
 To register you node in dawn4 use this link:
 http://dev.cryptolions.io/#register  
