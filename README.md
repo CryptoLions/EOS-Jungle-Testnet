@@ -3,7 +3,7 @@
 Based on: bnet tag 
 
 To register you node in EOS dawn4.2 use this link:
-http://dev.cryptolions.io/#register  
+http://bnet.cryptolions.io/#register  
 Jungle <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>
 
 To create EOS key pair use cleos command  
