@@ -2,9 +2,13 @@
 
 Based on: dawn-v4.2.0 tag 
 
-To register you node in dawn4 use this link:
+To register you node in EOS dawn4.2 use this link:
 http://dev.cryptolions.io/#register  
 Jungle <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>
+
+To create EOS key pair use cleos command 
+./cleos.sh create key 
+or for example <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.  
 
 In case manual compilation please change token symbol from SYS to EOS in CMakeLists.txt or run this command in EOS sources folder
 
