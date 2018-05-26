@@ -18,10 +18,10 @@ git submodule update --init --recursive
 sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt  
 
 ./eosio_build.sh   
-```
+```  
 
-! First run should be with --delete-all-blocks and --genesis-json 
-```./start.sh --delete-all-blocks --genesis-json genesis.json```
+! First run should be with --delete-all-blocks and --genesis-json   
+```./start.sh --delete-all-blocks --genesis-json genesis.json```  
 
 
 
