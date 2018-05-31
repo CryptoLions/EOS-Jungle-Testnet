@@ -23,7 +23,7 @@ After registration will be created personal intallation script for you. It will 
 
 stop your nodeos before  
 ```
-cd eos  
+cd eos-source  
 git stash  
 git pull    
 
