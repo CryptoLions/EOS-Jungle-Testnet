@@ -40,7 +40,7 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
 # Manual installation
 
 ## Install EOS
-In case manual compilation please change token symbol from SYS to EOS in CMakeLists.txt or run this command in EOS sources folder
+Lets get sources, change token symbol from SYS to EOS and compile
 
 ```
 mkdir /home/eos-dawn4  
