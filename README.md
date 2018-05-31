@@ -65,8 +65,7 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
   git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./```
 - add execution rights  
   ```chmod -R 777 ./*.sh   
-  chmod -R 777 ./Wallet/*.sh  
-```
+  chmod -R 777 ./Wallet/*.sh ``` 
 
 - If you use different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
 
@@ -74,13 +73,13 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
 - Choose your producer name (12 symbols length a-z 1-5) and create own EOS key pair  
   you can create key pair using cleos command ./cleos.sh create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.  
 - Register account for your producer using created key:  
-  http://jungle.cryptolions.io:9898/monitor/#account  
+  http://dev.cryptolions.io/#account  
   
 - Edit in config.ini next parameters:  
   - server address: p2p-server-address = YOUR_NODE_IP_ADDRESS:9876  
   - your producer name: producer-name = YOUR_BP_NAME  
   - created producer keypair: private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]  
-  - replace p2p-peer-address list with fresh generated on monitor site: http://jungle.cryptolions.io:9898/monitor/#p2p  
+  - replace p2p-peer-address list with fresh generated on monitor site: http://dev.cryptolions.io/#p2p  
   
 - Open http and p2p Ports on your firewall/router  
 - Connect your node, run ./start.sh  
