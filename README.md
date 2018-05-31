@@ -92,8 +92,10 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
 - Import your key ./cleos.sh wallet import <YOUR_PRIVKEY>
 
 
-**First run should be with --delete-all-blocks and --genesis-json**
-```./start.sh --delete-all-blocks --genesis-json genesis.json```  
+**First run should be with --delete-all-blocks and --genesis-json**  
+```
+./start.sh --delete-all-blocks --genesis-json genesis.json
+```  
 
 Please use this parametr in your start script:  
 ```
