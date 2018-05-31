@@ -87,9 +87,18 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
   - replace p2p-peer-address list with fresh generated on monitor site: http://dev.cryptolions.io/#p2p  
   
 - Open http and p2p Ports on your firewall/router  
-- Connect your node, run ./start.sh  
-- Start wallet, run ./Wallet/start_wallet.sh  
-- Import your key ./cleos.sh wallet import <YOUR_PRIVKEY>
+- Connect your node, run 
+```
+./start.sh  
+```
+- Start wallet, run 
+```
+./Wallet/start_wallet.sh  
+```
+- Import your key 
+```
+./cleos.sh wallet import <YOUR_PRIVKEY>
+```
 
 
 **First run should be with --delete-all-blocks and --genesis-json**  
@@ -108,14 +117,37 @@ Please use this parametr in your start script:
 If you installed and synced and would like to see your node in monitor - just <a traget="_blank" href="http://dev.cryptolions.io/#register  ">register </a> with you node data and skip step 2.
 
 
-by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
-
 
 # Get test EOS tokens:
   http://dev.cryptolions.io/#faucet
 
 
-
+# Other Tools/Examples
+- In scripts folder you can find examples how to register as producer, stake, vote, claimrewards, etc
+- You can use testnet monitor for preparing vote command: https://t.me/jungletestnet/19081
+- Cleos commands:
+-- Send EOS
+```
+./cleos.sh transfer <your account>  <receiver account> "1.0000 EOS" "test memo text"
+```
+-- Get Balance
+```
+./cleos.sh get currency balance eosio.token <account name>
+```
+-- Create account
+```
+./cleos.sh system newaccount --stake-net "10.0000 EOS" --stake-cpu "10.0000 EOS" --buy-ram-bytes 4096 <your accountr> <new account> <pkey1> <pkey2>
+```
+-- List registered producers (-l <limit>)
+```
+./cleos.sh get table eosio eosio producers -l 100
+```
+-- List your last action (use -h to get help, do not work now)
+```
+./cleos.sh get actions <account name>
+```
+  
+by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
 ====================================== BPs participating in dawn2/3 ===================================
 
