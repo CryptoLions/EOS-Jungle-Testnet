@@ -151,7 +151,7 @@ List your last action (use -h to get help, do not work now)
   
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
-====================================== BPs participating in dawn2/3 ===================================
+============================ BPs participating in dawn2/3 ==========================
 
 # BP Nodes Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
