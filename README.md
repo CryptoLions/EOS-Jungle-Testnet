@@ -59,13 +59,16 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
 
 ## Configuring Node
 - Create data-dir folder for you node:
-  ```mkdir /opt/JungleTestnet  ```
+  ```
+  mkdir /opt/JungleTestnet  ```
 - Clone all files from this repo:
-  ```cd /opt/JungleTestnet
+  ```
+  cd /opt/JungleTestnet
   git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./ 
   ```   
 - add execution rights  
-  ```chmod -R 777 ./*.sh   
+  ```
+  chmod -R 777 ./*.sh   
   chmod -R 777 ./Wallet/*.sh 
   ```  
 
