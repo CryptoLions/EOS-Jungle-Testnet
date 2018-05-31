@@ -126,24 +126,25 @@ If you installed and synced and would like to see your node in monitor - just <a
 # Other Tools/Examples
 - In scripts folder you can find examples how to register as producer, stake, vote, claimrewards, etc
 - You can use testnet monitor for preparing vote command: https://t.me/jungletestnet/19081
-- Cleos commands:
--- Send EOS
+- Cleos commands:  
+
+Send EOS
 ```
 ./cleos.sh transfer <your account>  <receiver account> "1.0000 EOS" "test memo text"
 ```
--- Get Balance
+Get Balance  
 ```
 ./cleos.sh get currency balance eosio.token <account name>
 ```
--- Create account
+Create account  
 ```
 ./cleos.sh system newaccount --stake-net "10.0000 EOS" --stake-cpu "10.0000 EOS" --buy-ram-bytes 4096 <your accountr> <new account> <pkey1> <pkey2>
 ```  
--- List registered producers (-l <limit>)  
+List registered producers (-l <limit>)  
 ```
-./cleos.sh get table eosio eosio producers -l 100
+./cleos.sh get table eosio eosio producers -l 100  
 ```
--- List your last action (use -h to get help, do not work now)
+List your last action (use -h to get help, do not work now)  
 ```
 ./cleos.sh get actions <account name>
 ```
