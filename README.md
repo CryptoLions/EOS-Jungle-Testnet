@@ -1,18 +1,51 @@
 # Welcome to the EOS Jungle Testnet
 
-Based on: DAWN-2018-05-30
 
-To register you node in EOS dawn4.2 use this link:
-http://dev.cryptolions.io/#register  
-Jungle <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>
+Based on tag: DAWN-2018-05-30  
+Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
+Network Monitor: http://dev.cryptolions.io/#  
 
-To create EOS key pair use cleos command  
+To create your EOS key pair you can use cleos command (need already installed EOS)  
 `./cleos.sh create key `  
 or for example <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.  
 
+
+# BP node Registartion (auto installer script)  
+To get auto installer script please register:  
+http://dev.cryptolions.io/#register  
+
+Pin in registartion is your password to update node info later.  
+
+After registration will be created personal intallation script for you. It will download and compile EOS, create testnet and wallet folders, create start/stop/etc scripts, create all configs and examples how to register as producer, stake and vote.
+
+
+# Updating sources to new version  
+
+stop your nodeos before  
+```
+cd eos  
+git stash  
+git pull    
+
+git checkout DAWN-2018-05-30  
+git pull  
+git submodule update --init --recursive    
+
+sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt   
+
+./eosio_build.sh   
+```  
+
+
+# Manual installation
+
+## Install EOS
 In case manual compilation please change token symbol from SYS to EOS in CMakeLists.txt or run this command in EOS sources folder
 
 ```
+mkdir /home/eos-dawn4  
+cd /home/eos-dawn4  
+
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
@@ -24,68 +57,21 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
 ./eosio_build.sh   
 ```  
 
-# First run should be with --delete-all-blocks and --genesis-json   
-```./start.sh --delete-all-blocks --genesis-json genesis.json```  
-
-
-=========
-In case of update sources:
-
-
-```
-cd eos  
-git stash
-git pull    
-
-git checkout DAWN-2018-05-30
-git pull
-git submodule update --init --recursive   
-
-sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt  
-
-./eosio_build.sh   
-```  
-
-
-===================================Outdated manual===================
-
-EOS public test network: Jungle     
-Based on: DAWN-2018-04-27-ALPHA <!--dawn-v3.0.0 release-->  
-by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
-
-
-Check the Nodes status in <a target="_blank" href="http://jungle.cryptolions.io:9898/monitor/">Network Monitor</a>
-
-To participate as block producer please contact us in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>
-
-
-# Howto Install EOS node:  
-  
-
-mkdir /home/eos-dawn-v3.0.0  
-cd /home/eos-dawn-v3.0.0  
-git clone https://github.com/eosio/eos --recursive    
-cd eos  
-
-git checkout DAWN-2018-04-27-ALPHA  
-git submodule update --init --recursive  
-./eosio_build.sh  
-cd build  
-make install  
-
-# How to configure node and test BP
+## Configuring Node
 - Create data-dir folder for you node:
-  mkdir /opt/JungleTestnet  
-- Clone all files from this repository, ru:
-  cd /opt/JungleTestnet
-  git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./
+  ```mkdir /opt/JungleTestnet  ```
+- Clone all files from this repo:
+  ```cd /opt/JungleTestnet
+  git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./```
 - add execution rights  
-  chmod -R 777 ./\*.sh   
-  chmod -R 777 ./Wallet/\*.sh  
+  ```chmod -R 777 ./*.sh   
+  chmod -R 777 ./Wallet/*.sh  
+```
 
-- Id you use different folder then in example -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini (path to genesis), Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
+- If you use different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
 
-- Choose your producer name (any jungle animal ;) and create own EOS key pair  
+
+- Choose your producer name (12 symbols length a-z 1-5) and create own EOS key pair  
   you can create key pair using cleos command ./cleos.sh create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.  
 - Register account for your producer using created key:  
   http://jungle.cryptolions.io:9898/monitor/#account  
@@ -99,25 +85,33 @@ make install
 - Open http and p2p Ports on your firewall/router  
 - Connect your node, run ./start.sh  
 - Start wallet, run ./Wallet/start_wallet.sh  
-- Import your address ./cleos.sh wallet import <YOUR_PRIVKEY>
+- Import your key ./cleos.sh wallet import <YOUR_PRIVKEY>
 
-- Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://jungle.cryptolions.io:8888/v1/chain/get_info" target="_blank">Example</a>)
 
-- if your node is connected and synced -  **Send Request** in <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a> with next information:  
-    
-| Server Location | Organisation | node ip/domain, | Port (http) |  Port (p2p) | producer name | your public key|
-|-----------------|--------------|-----------------|-------------|-------------|---------------|----------------|
+**First run should be with --delete-all-blocks and --genesis-json**
+```./start.sh --delete-all-blocks --genesis-json genesis.json```  
 
-- After receving your requst, node will be added to monitor, as Block producer.  
-  Account will be created and initial EOS will be sent.  
-  
- - Get test EOS tokens:
-  http://jungle.cryptolions.io:9898/monitor/#faucet
+Please use this parametr in your start script:  
+```
+ --max-irreversible-block-age 108000  
+```
 
-# Non BP node
-To run non producing node just comment out in config.ini    
- producer-name = YOUR_BP_NAME  
- private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]  
+- Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://dev.cryptolions.io:38888/v1/chain/get_info" target="_blank">Example</a>)
+
+
+If you installed and synced and would like to see your node in monitor - just <a traget="_blank" href="http://dev.cryptolions.io/#register  ">register </a> with you node data and skip step 2.
+
+
+by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
+
+
+# Get test EOS tokens:
+  http://dev.cryptolions.io/#faucet
+
+
+
+
+====================================== BPs participating in dawn2/3 ===================================
 
 # BP Nodes Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
