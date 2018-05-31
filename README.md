@@ -62,10 +62,12 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
   ```mkdir /opt/JungleTestnet  ```
 - Clone all files from this repo:
   ```cd /opt/JungleTestnet
-  git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./ ```   
+  git clone https://github.com/CryptoLions/EOS-Jungle-Testnet.git ./ 
+  ```   
 - add execution rights  
   ```chmod -R 777 ./*.sh   
-  chmod -R 777 ./Wallet/*.sh ``` 
+  chmod -R 777 ./Wallet/*.sh 
+  ```  
 
 - If you use different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
 
