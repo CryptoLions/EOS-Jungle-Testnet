@@ -60,7 +60,8 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
 ## Configuring Node
 - Create data-dir folder for you node:
   ```
-  mkdir /opt/JungleTestnet  ```
+  mkdir /opt/JungleTestnet 
+  ```
 - Clone all files from this repo:
   ```
   cd /opt/JungleTestnet
@@ -137,8 +138,8 @@ If you installed and synced and would like to see your node in monitor - just <a
 -- Create account
 ```
 ./cleos.sh system newaccount --stake-net "10.0000 EOS" --stake-cpu "10.0000 EOS" --buy-ram-bytes 4096 <your accountr> <new account> <pkey1> <pkey2>
-```
--- List registered producers (-l <limit>)
+```  
+-- List registered producers (-l <limit>)  
 ```
 ./cleos.sh get table eosio eosio producers -l 100
 ```
