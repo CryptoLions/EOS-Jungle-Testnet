@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: DAWN-2018-05-30  
+Based on tag: master  
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://dev.cryptolions.io/#  
 
@@ -27,7 +27,7 @@ cd eos-source
 git stash  
 git pull    
 
-git checkout DAWN-2018-05-30  
+git checkout master  
 git pull  
 git submodule update --init --recursive    
 
@@ -49,7 +49,7 @@ cd /home/eos-dawn4
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout DAWN-2018-05-30  
+git checkout master  
 git submodule update --init --recursive   
 
 sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt  
