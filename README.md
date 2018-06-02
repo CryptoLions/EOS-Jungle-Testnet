@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: master  
+Based on tag: v1.0.0  
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://dev.cryptolions.io/#  
 
@@ -43,13 +43,13 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
 Lets get sources, change token symbol from SYS to EOS and compile
 
 ```
-mkdir /home/eos-dawn4  
-cd /home/eos-dawn4  
+mkdir /home/eos-v1.0  
+cd /home/eos-v1.0  
 
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout master  
+git checkout v1.0.0  
 git submodule update --init --recursive   
 
 sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt  
