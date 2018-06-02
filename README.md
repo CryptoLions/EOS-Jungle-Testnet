@@ -3,7 +3,7 @@
 
 Based on tag: v1.0.0  
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
-Network Monitor: http://dev.cryptolions.io/#  
+Network Monitor: http://jungle.cryptolions.io/#  
 
 To create your EOS key pair you can use cleos command (need already installed EOS)  
 `./cleos.sh create key `  
@@ -12,7 +12,7 @@ or for example <a target="_blank" href="https://nadejde.github.io/eos-token-sale
 
 # BP node Registartion (auto installer script)  
 To get auto installer script please register:  
-http://dev.cryptolions.io/#register  
+http://jungle.cryptolions.io/#register  
 
 Pin in registartion is your password to update node info later.  
 
@@ -79,13 +79,13 @@ sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt
 - Choose your producer name (12 symbols length a-z 1-5) and create own EOS key pair  
   you can create key pair using cleos command ./cleos.sh create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.  
 - Register account for your producer using created key:  
-  http://dev.cryptolions.io/#account  
+  http://jungle.cryptolions.io/#account  
   
 - Edit in config.ini next parameters:  
   - server address: p2p-server-address = YOUR_NODE_IP_ADDRESS:9876  
   - your producer name: producer-name = YOUR_BP_NAME  
   - created producer keypair: private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]  
-  - replace p2p-peer-address list with fresh generated on monitor site: http://dev.cryptolions.io/#p2p  
+  - replace p2p-peer-address list with fresh generated on monitor site: http://jungle.cryptolions.io/#p2p  
   
 - Open http and p2p Ports on your firewall/router  
 - Connect your node, run 
@@ -112,15 +112,15 @@ Please use this parametr in your start script:
  --max-irreversible-block-age 108000  
 ```
 
-- Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://dev.cryptolions.io:38888/v1/chain/get_info" target="_blank">Example</a>)
+- Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://jungle.cryptolions.io:38888/v1/chain/get_info" target="_blank">Example</a>)
 
 
-If you installed and synced and would like to see your node in monitor - just <a traget="_blank" href="http://dev.cryptolions.io/#register  ">register </a> with you node data and skip step 2.
+If you installed and synced and would like to see your node in monitor - just <a traget="_blank" href="http://jungle.cryptolions.io/#register  ">register </a> with you node data and skip step 2.
 
 
 
 # Get test EOS tokens:
-  http://dev.cryptolions.io/#faucet
+  http://jungle.cryptolions.io/#faucet
 
 
 # Other Tools/Examples
