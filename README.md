@@ -27,7 +27,7 @@ cd eos-source
 git stash  
 git pull    
 
-git checkout master  
+git checkout v1.0.0  
 git pull  
 git submodule update --init --recursive    
 
