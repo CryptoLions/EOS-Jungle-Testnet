@@ -23,17 +23,15 @@ After registration will be created personal intallation script for you. It will 
 
 stop your nodeos before  
 ```
-cd eos-source  
-git stash  
-git pull    
-
+./stop.sh
+cd ../eos-source  
+rm CMakeLists.txt
+git pull
 git checkout v1.0.1  
-git pull  
 git submodule update --init --recursive    
 
 sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt   
 
-./eosio_build.sh   
 ```  
 
 
@@ -151,6 +149,7 @@ List your last action (use -h to get help, do not work now)
   
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
+Keybase account: cryptolions
 ============================ BPs participating in dawn2/3 ==========================
 
 # BP Nodes Information
