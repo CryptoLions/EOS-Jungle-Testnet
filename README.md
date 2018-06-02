@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: v1.0.0  
+Based on tag: v1.0.1  
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
@@ -27,7 +27,7 @@ cd eos-source
 git stash  
 git pull    
 
-git checkout v1.0.0  
+git checkout v1.0.1  
 git pull  
 git submodule update --init --recursive    
 
@@ -49,7 +49,7 @@ cd /home/eos-v1.0
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout v1.0.0  
+git checkout v1.0.1  
 git submodule update --init --recursive   
 
 sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt  
