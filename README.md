@@ -147,6 +147,11 @@ List your last action (use -h to get help, do not work now)
 ./cleos.sh get actions <account name>
 ```
   
+List staked/delegated  
+```
+./cleos.sh system listbw <account>   
+```
+  
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
 Keybase account: cryptolions
