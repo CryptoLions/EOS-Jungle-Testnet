@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: master  
+Based on tag: v1.0.3  
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
@@ -27,7 +27,7 @@ stop your nodeos before
 cd ../eos-source  
 rm CMakeLists.txt
 git pull
-git checkout master  
+git checkout v1.0.3  
 git submodule update --init --recursive    
 
 sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt   
@@ -47,7 +47,7 @@ cd /home/eos-v1.0
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout master  
+git checkout v1.0.3  
 git submodule update --init --recursive   
 
 sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt  
