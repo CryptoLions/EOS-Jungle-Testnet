@@ -30,7 +30,7 @@ git pull
 git checkout v1.0.3  
 git submodule update --init --recursive    
 
-sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt   
+./eosio_build.sh -s EOS   
 
 ```  
 
@@ -50,9 +50,7 @@ cd eos
 git checkout v1.0.3  
 git submodule update --init --recursive   
 
-sed -i.bak '16i set( CORE_SYMBOL_NAME "EOS" )' CMakeLists.txt  
-
-./eosio_build.sh   
+./eosio_build.sh -s EOS
 ```  
 
 ## Configuring Node
