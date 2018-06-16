@@ -92,9 +92,19 @@ git submodule update --init --recursive
 ```
 ./Wallet/start_wallet.sh  
 ```
+- Create your wallet 
+```
+./cleos.sh wallet create -n <YOUR_WALLET_NAME>
+```
+rember the password,it will be used when unlock wallet
+- Unlock your wallet 
+```
+./cleos.sh wallet unlock -n <YOUR_WALLET_NAME>
+```
+enter the wallet password.
 - Import your key 
 ```
-./cleos.sh wallet import <YOUR_PRIVKEY>
+./cleos.sh wallet -n <YOUR_WALLET_NAME> import <YOUR_PRIVKEY>
 ```
 
 
