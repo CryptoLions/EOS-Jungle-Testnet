@@ -65,8 +65,8 @@ git submodule update --init --recursive
   ```   
 - add execution rights  
   ```
-  chmod -R 777 ./*.sh   
-  chmod -R 777 ./Wallet/*.sh 
+  chmod +x ./*.sh   
+  chmod +x ./Wallet/*.sh 
   ```  
 
 - If you use different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
