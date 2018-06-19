@@ -15,4 +15,4 @@ echo -e "Starting Nodeos \n";
 
 ulimit -s 64000
 
-$NODEOSBINDIR/nodeos --max-irreversible-block-age 108000 --data-dir $DATADIR --config-dir $DATADIR "$@" > $DATADIR/stdout.txt 2> $DATADIR/stderr.txt &  echo $! > $DATADIR/nodeos.pid
+$NODEOSBINDIR/nodeos --data-dir $DATADIR --config-dir $DATADIR "$@" > $DATADIR/stdout.txt 2> $DATADIR/stderr.txt &  echo $! > $DATADIR/nodeos.pid
