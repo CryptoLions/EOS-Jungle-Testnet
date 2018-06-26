@@ -25,7 +25,6 @@ stop your nodeos before
 ```
 ./stop.sh
 cd ../eos-source  
-rm CMakeLists.txt
 git pull
 git checkout v1.0.7  
 git submodule update --init --recursive    
