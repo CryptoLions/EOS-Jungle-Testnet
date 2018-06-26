@@ -112,11 +112,6 @@ enter the wallet password.
 ./start.sh --delete-all-blocks --genesis-json genesis.json
 ```  
 
-Please use this parametr in your start script:  
-```
- --max-irreversible-block-age 108000  
-```
-
 - Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info (<a href="http://jungle.cryptolions.io:38888/v1/chain/get_info" target="_blank">Example</a>)
 
 
