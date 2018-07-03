@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: v1.0.7  
+Based on tag: v1.0.8  
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
@@ -26,7 +26,7 @@ stop your nodeos before
 ./stop.sh
 cd ../eos-source  
 git pull
-git checkout v1.0.7  
+git checkout v1.0.8  
 git submodule update --init --recursive    
 
 ./eosio_build.sh -s EOS   
@@ -46,7 +46,7 @@ cd /home/eos-v1.0
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout v1.0.7  
+git checkout v1.0.8  
 git submodule update --init --recursive   
 
 ./eosio_build.sh -s EOS
