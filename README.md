@@ -5,9 +5,14 @@ Based on tag: v1.1.2
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
-To create your EOS key pair you can use cleos command (need already installed EOS)  
-`./cleos.sh create key `  
-or for example <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.  
+# !!! f you are Not synced, you need to downgrade to v1.1.0 sync node and upgrade:
+1. stop node.  
+2. downgrade to v1.1.0  
+3. remove blocks/reverrsible folder.   
+4. disable bnet /mongo plugin  
+5. update peers in config  
+6.  ./start.sh --replay  
+7. Upgrade to v1.1.2  
 
 
 # BP node Registartion (auto installer script)  
