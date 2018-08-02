@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: v1.1.1  
+Based on tag: v1.1.1 
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
