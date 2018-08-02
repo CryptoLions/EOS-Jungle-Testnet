@@ -5,7 +5,7 @@ Based on tag: v1.1.2
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
-# !!! f you are Not synced, you need to downgrade to v1.1.0 sync node and upgrade:
+# !!! If you are Not synced, you need to downgrade to v1.1.0 sync node and upgrade:
 1. stop node.  
 2. downgrade to v1.1.0  
 3. remove blocks/reverrsible folder.   
