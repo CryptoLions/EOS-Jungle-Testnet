@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: v1.1.1
+Based on tag: v1.1.3
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
@@ -12,7 +12,7 @@ Network Monitor: http://jungle.cryptolions.io/#
 4. disable bnet /mongo plugin  
 5. update peers in config  
 6.  ./start.sh --replay  
-7. Upgrade to v1.1.1  
+7. Upgrade to v1.1.3  
 
 
 # BP node Registartion (auto installer script)  
@@ -31,7 +31,7 @@ stop your nodeos before
 ./stop.sh
 cd ../eos-source  
 git pull
-git checkout v1.1.1 
+git checkout v1.1.3 
 git submodule update --init --recursive    
 
 ./eosio_build.sh -s EOS   
@@ -51,7 +51,7 @@ cd /home/eos-v1.0
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout v1.1.1  
+git checkout v1.1.3  
 git submodule update --init --recursive   
 
 ./eosio_build.sh -s EOS
@@ -161,8 +161,10 @@ List staked/delegated
   
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
-Keybase account: cryptolions
-============================ BPs participating in dawn2/3 ==========================
+Keybase account: cryptolions  
+  
+    
+================== History: BPs participating in dawn2/3 ======================
 
 # BP Nodes Information
 | BP Name | Address | Port (http) | Port (p2p) | Location | Organisation |
