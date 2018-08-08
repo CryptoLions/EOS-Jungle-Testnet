@@ -13,7 +13,6 @@ DATADIR="/opt/JungleTestnet"
 $DATADIR/stop.sh
 echo -e "Starting Nodeos \n";
 
-ulimit -c unlimited
 ulimit -n 65535
 ulimit -s 64000
 
