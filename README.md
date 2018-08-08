@@ -74,7 +74,12 @@ git submodule update --init --recursive
   ```  
 
 - If you use different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
-
+Also please change limits for your system, add in your start.sh:
+```
+  ulimit -c unlimited
+  ulimit -n 65535
+  ulimit -s 64000
+```
 
 - Choose your producer name (12 symbols length a-z 1-5) and create own EOS key pair  
   you can create key pair using cleos command ./cleos.sh create key or <a target="_blank" href="https://nadejde.github.io/eos-token-sale/">here</a>.  
@@ -86,6 +91,8 @@ git submodule update --init --recursive
   - your producer name: producer-name = YOUR_BP_NAME  
   - created producer keypair: private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]  
   - replace p2p-peer-address list with fresh generated on monitor site: http://jungle.cryptolions.io/#p2p  
+  - Check chain-state-db-size-mb value in config, it should be not bigger than you have RAM:
+    chain-state-db-size-mb = 32768
   
 - Open http and p2p Ports on your firewall/router  
 - Connect your node, run 
