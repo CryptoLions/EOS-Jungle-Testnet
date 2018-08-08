@@ -91,7 +91,7 @@ Also please change limits for your system, add in your start.sh:
   - your producer name: producer-name = YOUR_BP_NAME  
   - created producer keypair: private-key = ["YOUR_PUBKEY","YOUR_PRIVKEY"]  
   - replace p2p-peer-address list with fresh generated on monitor site: http://jungle.cryptolions.io/#p2p  
-  - Check chain-state-db-size-mb value in config, it should be not bigger than you have RAM:
+  - Check chain-state-db-size-mb value in config, it should be not bigger than you have RAM:  
     chain-state-db-size-mb = 32768
   
 - Open http and p2p Ports on your firewall/router  
