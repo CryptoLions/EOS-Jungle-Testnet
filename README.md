@@ -76,7 +76,6 @@ git submodule update --init --recursive
 - If you use different data-dir folders -> edit all paths in files cleos.sh, start.sh, stop.sh, config.ini, Wallet/start_wallet.sh, Wallet/stop_wallet.sh:
 Also please change limits for your system, add in your start.sh:
 ```
-  ulimit -c unlimited
   ulimit -n 65535
   ulimit -s 64000
 ```
