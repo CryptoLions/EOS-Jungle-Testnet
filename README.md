@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: v1.2.3
+Based on tag: v1.2.4
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
@@ -11,8 +11,8 @@ Network Monitor: http://jungle.cryptolions.io/#
 3. remove blocks/reverrsible folder.   
 4. disable bnet /mongo plugin  
 5. update peers in config  
-6.  ./start.sh --replay  
-7. Upgrade to v1.2.3  
+6.  ./start.sh --replay
+7. on 10 mln block when it stop syncing, please stop a node, upgrade to v1.2.4, and start without replay flag.    
 
 
 # BP node Registartion (auto installer script)  
@@ -31,7 +31,7 @@ stop your nodeos before
 ./stop.sh
 cd ../eos-source  
 git pull
-git checkout v1.2.3 
+git checkout v1.2.4 
 git submodule update --init --recursive    
 
 ./eosio_build.sh -s EOS   
@@ -51,7 +51,7 @@ cd /home/eos-v1.0
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout v1.2.3  
+git checkout v1.2.4  
 git submodule update --init --recursive   
 
 ./eosio_build.sh -s EOS
