@@ -11,7 +11,7 @@ Network Monitor: http://jungle.cryptolions.io/#
 3. remove blocks/reverrsible folder.   
 4. disable bnet /mongo plugin  
 5. update peers in config  
-6.  ./start.sh --replay
+6.  ./start.sh --hard-replay --truncate-at-block 10421900  
 7. on 10 mln block when it stop syncing, please stop a node, upgrade to v1.2.4, and start without replay flag.    
 
 
@@ -128,6 +128,9 @@ enter the wallet password.
 
 If you installed and synced and would like to see your node in monitor - just <a traget="_blank" href="http://jungle.cryptolions.io/#register  ">register </a> with you node data and skip step 2.
 
+# last snapshot (13.41Mi blocks, chain-state-db-size-mb = 32768): 
+Blocks: http://jungle.cryptolions.io/blocks/blocks-Jungle-2018_09_06-13_28.tar.gz
+State: http://jungle.cryptolions.io/blocks/state-Jungle-2018_09_06-13_28.tar.gz
 
 
 # Get test EOS tokens:
