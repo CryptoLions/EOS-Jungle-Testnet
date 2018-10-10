@@ -1,7 +1,7 @@
 # Welcome to the EOS Jungle Testnet
 
 
-Based on tag: v1.3.0
+Based on tag: v1.3.2
 Please join out Jungle testnet <a target="_blank" href="https://t.me/jungletestnet">telegram channel</a>  
 Network Monitor: http://jungle.cryptolions.io/#  
 
@@ -12,7 +12,7 @@ Network Monitor: http://jungle.cryptolions.io/#
 4. disable bnet /mongo plugin  
 5. update peers in config  
 6.  ./start.sh --hard-replay --truncate-at-block 10421900  
-7. on 10 mln block when it stop syncing, please stop a node, upgrade to v1.3.0, and start without replay flag.    
+7. on 10 mln block when it stop syncing, please stop a node, upgrade to v1.3.2, and start without replay flag.    
 
 
 # BP node Registartion (auto installer script)  
@@ -31,7 +31,7 @@ stop your nodeos before
 ./stop.sh
 cd ../eos-source  
 git pull
-git checkout v1.3.0 
+git checkout v1.3.2 
 git submodule update --init --recursive    
 
 ./eosio_build.sh -s EOS   
@@ -51,7 +51,7 @@ cd /home/eos-v1.0
 git clone https://github.com/eosio/eos --recursive    
 cd eos  
 
-git checkout v1.3.0  
+git checkout v1.3.2  
 git submodule update --init --recursive   
 
 ./eosio_build.sh -s EOS
@@ -128,11 +128,10 @@ enter the wallet password.
 
 If you installed and synced and would like to see your node in monitor - just <a traget="_blank" href="http://jungle.cryptolions.io/#register  ">register </a> with you node data and skip step 2.
 
-# last snapshot (13.41Mi blocks, chain-state-db-size-mb = 32768): 
-Blocks: http://jungle.cryptolions.io/blocks/blocks-Jungle-2018_09_06-13_28.tar.gz
-State: http://jungle.cryptolions.io/blocks/state-Jungle-2018_09_06-13_28.tar.gz
-
-
+# last snapshot (17.5Mi blocks, chain-state-db-size-mb = 32768, reversible-blocks-db-size-mb = 2048): 
+Blocks: http://jungle.cryptolions.io/blocks/blocks-Jungle-2018_10_03-11_02.tar.gz
+State: http://jungle.cryptolions.io/blocks/state-Jungle-2018_10_03-11_02.tar.gz
+  
 # Get test EOS tokens:
   http://jungle.cryptolions.io/#faucet
 
@@ -167,7 +166,12 @@ List staked/delegated
 ```
 ./cleos.sh system listbw <account>   
 ```
-  
+ 
+ Full history node (filter-on = *):
+http://junglehistory.cryptolions.io:18888/v1/chain/get_info
+Esio history node (filte-on = eosio*):
+https://api.jungle.alohaeos.com
+
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
 Keybase account: cryptolions  
