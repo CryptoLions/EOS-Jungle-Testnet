@@ -129,8 +129,8 @@ enter the wallet password.
 If you installed and synced and would like to see your node in monitor - just <a traget="_blank" href="http://jungle.cryptolions.io/#register  ">register </a> with you node data and skip step 2.
 
 # last snapshot (17.5Mi blocks, chain-state-db-size-mb = 32768, reversible-blocks-db-size-mb = 2048): 
-Blocks: http://jungle.cryptolions.io/blocks/blocks-Jungle-2018_10_03-11_02.tar.gz
-State: http://jungle.cryptolions.io/blocks/state-Jungle-2018_10_03-11_02.tar.gz
+Blocks: http://jungle.cryptolions.io/blocks/blocks-Jungle-2018_10_03-11_02.tar.gz  
+State: http://jungle.cryptolions.io/blocks/state-Jungle-2018_10_03-11_02.tar.gz  
   
 # Get test EOS tokens:
   http://jungle.cryptolions.io/#faucet
@@ -167,10 +167,10 @@ List staked/delegated
 ./cleos.sh system listbw <account>   
 ```
  
- Full history node (filter-on = *):
-http://junglehistory.cryptolions.io:18888/v1/chain/get_info
-Esio history node (filte-on = eosio*):
-https://api.jungle.alohaeos.com
+ Full history node (filter-on = *):  
+http://junglehistory.cryptolions.io:18888/v1/chain/get_info  
+Esio history node (filte-on = eosio*):  
+https://api.jungle.alohaeos.com  
 
 by: <a target="_blank" href="http://CryptoLions.io">CryptoLions.io</a>  
 
