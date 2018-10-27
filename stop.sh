@@ -8,12 +8,11 @@
 
 DIR="/opt/JungleTestnet"
 
-
     if [ -f $DIR"/nodeos.pid" ]; then
 	pid=`cat $DIR"/nodeos.pid"`
 	echo $pid
 	kill $pid
-	rm -r $DIR"/nodeos.pid"
+	
 
 	echo -ne "Stoping Nodeos"
 
@@ -22,6 +21,8 @@ DIR="/opt/JungleTestnet"
             echo -ne "."
             sleep 1
         done
+	rm -r $DIR"/nodeos.pid"
+	
 	DATE=$(date -d "now" +'%Y_%m_%d-%H_%M')
         if [ ! -d $DIR/logs ]; then
             mkdir $DIR/logs
