@@ -128,9 +128,9 @@ enter the wallet password.
 
 If you installed and synced and would like to see your node in monitor - just <a traget="_blank" href="http://jungle.cryptolions.io/#register  ">register </a> with you node data and skip step 2.
 
-# last snapshot (17.5Mi blocks, chain-state-db-size-mb = 32768, reversible-blocks-db-size-mb = 2048): 
-Blocks: http://jungle.cryptolions.io/blocks/blocks-Jungle-2018_10_03-11_02.tar.gz  
-State: http://jungle.cryptolions.io/blocks/state-Jungle-2018_10_03-11_02.tar.gz  
+# last snapshot (22Mi blocks, chain-state-db-size-mb = 32768, reversible-blocks-db-size-mb = 2048): 
+http://jungle.cryptolions.io/blocks/blocks-Jungle-2018_10_30-19_03.tar.gz
+http://jungle.cryptolions.io/blocks/state-Jungle-2018_10_30-19_03.tar.gz
   
 # Get test EOS tokens:
   http://jungle.cryptolions.io/#faucet
