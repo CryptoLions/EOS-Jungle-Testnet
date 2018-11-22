@@ -38,6 +38,8 @@ git submodule update --init --recursive
 
 ```  
 
+# Docker
+Use this [repo](https://github.com/LIU9293/EOS-Jungle-Testnet-Docker)
 
 # Manual installation
 
